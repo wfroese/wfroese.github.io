@@ -1,12 +1,26 @@
 ---
 layout: default
 ---
-Test default layout
-
-<ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
+<section>
+  <h1>Hi, I'm Will.</h1>
+  <p>
+    I'm a software team lead at [Eleven Winds](www.elevenwinds.com). 
+    We're a small agency, so I do a little bit of everything including development, design & architecture, long-term planning, mentoring & training, etc.
+  </p>
+  <p>
+    I currently lead Product Development for [Utilismart](http://www.utilismartcorp.com/), where we build
+    tools for electric utility companies.
+  </p>
+</section>
+<hr />
+<section>
+  <h1>Thoughts</h1>
+  <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
   </ul>
+</section>
