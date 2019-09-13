@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.wrapper {
+    width: 960px;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -17,6 +21,7 @@ body {
     color: #555;
     font-size: 16px;
     line-height: 1.6;
+    background-color: #f5f5f5;
 
     strong {
         color: #555;
@@ -34,28 +39,24 @@ a:hover {
 
 section {
     padding-bottom: 0;
-}
-
-section#post-excerpts {
-    padding-top: 25px;
+    width: 650px;
 }
 
 section#intro {
     box-shadow: 0px 0px 1px 1px rgba(175,175,175,0.1);
     background-color: white;
+    margin-bottom: 10px;
 
     #intro-content {
         padding: 25px;
     }
 }
 
-section#post-excerpts {
-    background-color: white;
-}
-
 article.post-excerpt {
     box-shadow: 0px 0px 1px 1px rgba(175,175,175,0.1);
     margin-bottom: 10px;
+    padding: 25px;
+    background-color: white;
 }
 
 @media print, screen and (max-width: 960px) {
