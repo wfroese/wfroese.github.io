@@ -12,13 +12,12 @@ layout: default
     where we build tools for electric utility companies.
   </p>
 </section>
-<hr />
 <section>
   <h1>Thoughts</h1>
   {% for post in site.posts %}
-    <div class="post-excerpt">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </div>
+    <article class="post-excerpt">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </article>
   {% endfor %}
 </section>

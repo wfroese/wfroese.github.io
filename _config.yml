@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: Will Froese
-description: "The intersection of a software agency, .NET software development, and electrical utilities" 
+description: "The intersection of .NET software development, a software agency, and electrical utilities" 
 google_analytics: UA-47238342-7
 permalink: /blog/:title
