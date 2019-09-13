@@ -31,3 +31,36 @@ a:hover {
     font-weight: normal;
     color: #4ac2bf;
 }
+
+section {
+    padding-bottom: 0;
+}
+
+section#post-excerpts {
+    padding-top: 25px;
+}
+
+section#intro {
+    box-shadow: 0px 0px 1px 1px rgba(175,175,175,0.1);
+    background-color: white;
+
+    #intro-content {
+        padding: 25px;
+    }
+}
+
+section#post-excerpts {
+    background-color: white;
+}
+
+article.post-excerpt {
+    box-shadow: 0px 0px 1px 1px rgba(175,175,175,0.1);
+    margin-bottom: 10px;
+}
+
+@media print, screen and (max-width: 960px) {
+    section {
+        border: none;
+        margin: 0;
+    }
+} 
