@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Books"
+title: "The Manager's Path"
 excerpt_separator: <!--end_excerpt-->
 tags: books, management
 ---
