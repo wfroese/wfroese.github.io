@@ -64,4 +64,10 @@ article.post-excerpt {
         border: none;
         margin: 0;
     }
-} 
+}
+
+@media print, screen and (max-width: 960px) {
+    header, section, footer {
+        width: auto;
+    }
+}
