@@ -10,7 +10,7 @@ by [Camille Fournier](http://www.camilletalk.com/). I found it insightful and us
 
 For starters, a bit of context might be helpful. I've been a software developer (employee #1) at a small software agency since I got out of university. We've grown steadily over the years to the point where I now find myself managing a team of four developers plus myself.
 
-My management responsibilities have grown significantly in the last year. I've found myself on unfamiliar ground, trying to figure out what I should be doing and how I should be doing it. Software management and software development have very different responsibilities and required skillsets, yet it remains normal that developers get put into management positions with no training whatsoever. And yet I've always thought of myself as a developer, and my strengths were always technical. 
+My management responsibilities have grown significantly in the last year. I've found myself on unfamiliar ground, trying to figure out what I should be doing and how I should be doing it. Software management and software development have very different responsibilities and required skill sets, yet it remains normal that developers get put into management positions with no training whatsoever. And yet I've always thought of myself as a developer, and my strengths were always technical. 
 
 Frankly, Jeff Atwood [tweeted it best](https://twitter.com/codinghorror/status/472488806126714880):
 > Got into computers because I enjoyed talking to machines instead of people. Now computers are all about talking to people. This is some bullshit
