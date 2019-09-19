@@ -24,9 +24,11 @@ Note 2: This is of course not a complete list, but it does include the majority 
 7. [Noodle](https://vialect.com/): Provides intranet software for the enterprise.
 9. [iDream Interactive](https://www.idreaminteractive.com/): Mobile games developer.
 10. [Coulter Software](https://www.coulters.ca/): A general software consultancy with no particular specialty.
+11. [App Nouveau](https://www.appnouveau.com/): A custom software agency that appears to specialize in transportation management software.
 11. [Progressive Software Inc.](http://prosoftxp.com/): Enterprise software solutions in the agriculture industry.
 12. [Splice Digital](https://splicedigital.com/): A software agency
 13. [Elev8](https://www.elev8webstudio.com/): A Web Agency, specializing in WordPress development, hosting, and maintenance
+14. [Full Circle TMS](https://fullcircletms.com/): A startup in the transportation management industry
 
 ## Companies With Some Developers on Staff
 1. [Green Shield](https://www.greenshield.ca/en-ca): A health benefits company with a large office in Windsor including a development team.
