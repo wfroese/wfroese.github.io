@@ -61,6 +61,11 @@ article.post-excerpt {
     .post-excerpt-content {
         padding: 10px 25px 10px 25px;
 
+        h2 {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
         .post-tags {
             text-transform: uppercase;
             color: #999;
