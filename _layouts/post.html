@@ -4,7 +4,7 @@ layout: default
 
 <div id="post-container">
   {% if page.tags %}
-    <small id="tags">{{ page.tags | join: ", " }} - {{ page.date | date: "%B %-d, %Y" }}</small>
+    <small class="post-tags">{{ page.tags | join: ", " }} - {{ page.date | date: "%B %-d, %Y" }}</small>
   {% endif %}
   <h1>{{ page.title }}</h1>
   {{content}}

@@ -55,9 +55,17 @@ section#intro {
 
 article.post-excerpt {
     box-shadow: 0px 0px 1px 1px rgba(175,175,175,0.1);
-    margin-bottom: 10px;
-    padding: 25px;
+    margin-bottom: 20px;
     background-color: white;
+
+    .post-excerpt-content {
+        padding: 10px 25px 10px 25px;
+
+        .post-tags {
+            text-transform: uppercase;
+            color: #999;
+        }
+    }
 }
 
 div#post-container {

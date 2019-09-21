@@ -3,8 +3,8 @@ layout: post
 title: "The Manager's Path"
 excerpt_separator: <!--end_excerpt-->
 tags: books management
-cover_image: /assets/images/books.jpg
-cover_alt_text: a stack of books
+cover_image: /assets/images/managers-path.jpg
+cover_alt_text: a laptop with code displayed
 ---
 I recently had a chance to read [The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?keywords=the+manager%27s+path&qid=1568422992&s=gateway&sr=8-1)
 by [Camille Fournier](http://www.camilletalk.com/). I found it insightful and useful to me, so I'd thought I would take down notes on some of the more interesting parts.
@@ -75,6 +75,6 @@ I've found this to be difficult to get used to. I *liked* being the go-to techni
 
 Basically, I got exactly what I was hoping for out of this book, and I recommend it wholeheartedly if you have some of the same questions I did. I feel like I have a much better understanding of what I need to be doing in my current role to be effective, and I have a lot less fear that I'm incapable of learning how to deal with these new responsibilities. 
 
-
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@clemhlrdt?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Clément H"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Clément H</span></a>
 
 
