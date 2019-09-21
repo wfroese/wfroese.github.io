@@ -20,7 +20,7 @@ layout: default
       <img class="post-cover-image" src="{{ post.cover_image }}" alt="{{ post.cover_alt_text }}">
       <div class="post-excerpt-content">
         {% if post.tags %}
-          <small id="tags">{{ page.tags | join: ", " }} - {{ page.date | date: "%B %-d, %Y" }}</small>
+          <small id="tags">{{ post.tags | join: ", " }} - {{ post.date | date: "%B %-d, %Y" }}</small>
         {% endif %}
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p>{{ post.excerpt }}</p>
