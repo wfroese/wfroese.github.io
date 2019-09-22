@@ -5,6 +5,7 @@ excerpt_separator: <!--end_excerpt-->
 tags: books management
 cover_image: /assets/images/managers-path.jpg
 cover_alt_text: a laptop with code displayed
+description: A review of The Manager's Path (Camille Fournier), and what I learned from it.
 ---
 I recently had a chance to read [The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?keywords=the+manager%27s+path&qid=1568422992&s=gateway&sr=8-1)
 by [Camille Fournier](http://www.camilletalk.com/). I found it insightful and useful to me, so I'd thought I would take down notes on some of the more interesting parts.

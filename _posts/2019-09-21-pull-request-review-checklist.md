@@ -5,6 +5,7 @@ excerpt_separator: <!--end_excerpt-->
 tags: code best-practices software-teams
 cover_image: /assets/images/pr-review.jpg
 cover_alt_text: a screen showing some code
+description: A reference checklist for reviewing pull requests
 ---
 In any organization, there are certain requirements that code has to meet before it's considered production ready.
 I find it helpful to have an explicit documented checklist that is the base for reviewing any pull request.
