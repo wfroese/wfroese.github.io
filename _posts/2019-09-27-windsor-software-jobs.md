@@ -7,7 +7,6 @@ cover_image: /assets/images/ambassador.jpg
 cover_alt_text: ambassador bridge in Windsor, Ontario
 description: A list of software & tech companies in Windsor Ontario
 ---
-# Windsor Software Companies & Jobs
 I thought it might be useful to compile a list of local companies in the Windsor area that have software or web developers on staff. The purpose of the list is to help people get to know our local software landscape a bit better, but also to help students and anyone else
 who is looking to get into the field.
 
