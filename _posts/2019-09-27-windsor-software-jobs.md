@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Windsor Software Companies & Jobs"
 excerpt_separator: <!--end_excerpt-->
 tags: software jobs
