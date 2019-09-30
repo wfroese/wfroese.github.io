@@ -16,15 +16,17 @@ layout: default
 </section>
 <section id="post-excerpts">
   {% for post in site.posts %}
-    <article class="post-excerpt">
-      <img class="post-cover-image" src="{{ post.cover_image }}" alt="{{ post.cover_alt_text }}">
-      <div class="post-excerpt-content">
-        {% if post.tags %}
-          <small class="post-tags">{{ post.tags | join: ", " }} - {{ post.date | date: "%B %-d, %Y" }}</small>
-        {% endif %}
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-      </div>
-    </article>
+    {% unless post.draft %}
+      <article class="post-excerpt">
+        <img class="post-cover-image" src="{{ post.cover_image }}" alt="{{ post.cover_alt_text }}">
+        <div class="post-excerpt-content">
+          {% if post.tags %}
+            <small class="post-tags">{{ post.tags | join: ", " }} - {{ post.date | date: "%B %-d, %Y" }}</small>
+          {% endif %}
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          {{ post.excerpt }}
+        </div>
+      </article>
+    {% endunless %}
   {% endfor %}
 </section>
