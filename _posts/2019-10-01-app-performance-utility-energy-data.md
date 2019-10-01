@@ -1,11 +1,12 @@
 ---
+draft: true
 layout: post
-title: "Performance: A Production Story (or, how to use 370 GBs of RAM)"
+title: "Performance: A Production Story (or, how to use 350 GBs of RAM)"
 excerpt_separator: <!--end_excerpt-->
 tags: code performance
-cover_image: /assets/images/pr-review.jpg
-cover_alt_text: a screen showing some code
-description: A reference checklist for reviewing pull requests
+cover_image: /assets/images/performance.jpg
+cover_alt_text: a speedometer
+description: Thoughts on application performance when working with utility energy data
 ---
 One thing I find interesting about working in the utility industry is that you always have to be watching out for performance issues because of the large amounts of data.
 
