@@ -3,7 +3,7 @@ draft: true
 layout: post
 title: "Performance: A Production Story (or, how to use 350 GBs of RAM)"
 excerpt_separator: <!--end_excerpt-->
-tags: code performance
+tags: code performance energy-data
 cover_image: /assets/images/performance.jpg
 cover_alt_text: a speedometer
 description: Thoughts on application performance when working with utility energy data
@@ -21,27 +21,27 @@ After doing some digging, I uncovered a bit of code written long ago that essent
 
 {% highlight csharp %}
 
-    // 1. Set up, for performance testing purposes - define the number of meters and readings, and generate a list of reading objects
-    int numMeters = 50000;
-    int numReadings = 1000000;
-    List<Reading> readings = new List<Reading>();
-    Random randomGenerator = new Random(DateTime.Now.Second);
-    for (int i = 0; i < numReadings; i++)
-    {
-        readings.Add(new Reading { SerialNumber = randomGenerator.Next(numMeters).ToString() });
-    }
+// 1. Set up, for performance testing purposes - define the number of meters and readings, and generate a list of reading objects
+int numMeters = 50000;
+int numReadings = 1000000;
+List<Reading> readings = new List<Reading>();
+Random randomGenerator = new Random(DateTime.Now.Second);
+for (int i = 0; i < numReadings; i++)
+{
+    readings.Add(new Reading { SerialNumber = randomGenerator.Next(numMeters).ToString() });
+}
 
-    // 2. Run through the readings and create a meter object for each unique serial number we find
-    List<Meter> meters = new List<Meter>();
-    foreach (Reading reading in readings)
+// 2. Run through the readings and create a meter object for each unique serial number we find
+List<Meter> meters = new List<Meter>();
+foreach (Reading reading in readings)
+{
+    Meter meter = meters.SingleOrDefault(x => x.SerialNumber.Equals(reading.SerialNumber));
+    if (meter == null)
     {
-        Meter meter = meters.SingleOrDefault(x => x.SerialNumber.Equals(reading.SerialNumber));
-        if (meter == null)
-        {
-            meter = new Meter { SerialNumber = reading.SerialNumber };
-            meters.Add(meter);
-        }
+        meter = new Meter { SerialNumber = reading.SerialNumber };
+        meters.Add(meter);
     }
+}
 
 {% endhighlight %}
 

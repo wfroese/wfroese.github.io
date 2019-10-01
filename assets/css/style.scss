@@ -98,6 +98,12 @@ div#post-container {
         li {
             margin-bottom: 5px;
         }
+
+        /* Code listing */
+        figure.highlight {
+            margin-left: 0;
+            margin-right: 0;
+        }
     }
 }
 
