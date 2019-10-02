@@ -56,7 +56,7 @@ Improving on this code was fairly trivial, so I took two possible solutions and 
 
 {% highlight csharp %}
 
-// 3. Method Two: Run through the readings and create a meter object for each unique serial number we find,
+// Method 2: Run through the readings and create a meter object for each unique serial number we find,
 // but this time keep the meters in a Dictionary instead of a List.
 Dictionary<string, Meter> meters2 = new Dictionary<string, Meter>();
 foreach (Reading reading in readings)
@@ -68,7 +68,7 @@ foreach (Reading reading in readings)
     }
 }
 
-// 4. Method Three: Pure LINQ
+// Method 3: Pure LINQ
 List<Meter> meters3 = 
     readings
     .GroupBy(x => x.SerialNumber)
@@ -79,7 +79,7 @@ List<Meter> meters3 =
 
 ### Results
 
-||Method One|Method Two|Method Three|
+||Method 1|Method 2|Method 3|
 |---+---+---+---|
 |10,000 meters, 10,000 readings|1.3s|15 ms|5 ms|
 |10,000 meters, 100,000 readings|34s|30 ms|28 ms|
@@ -92,7 +92,7 @@ List<Meter> meters3 =
 With method 1, this task becomes literally impossible pretty quickly as the number of meters and readings grows, while with methods 2 & 3 this is a nearly trivial task.
 
 ## You Want *How Much* RAM??
-My second fun story comes again from a data loading process. We were doing some stress testing to see how many meters & readings our system could feasibly load into the database in realistic times when we started to see the RAM usage of the loading process spike.
+My second fun story comes again from a data loading process. We were doing some stress testing to see how many meters & readings our system could feasibly load when we started to see the RAM usage of the loading process spike.
 
 After some investigation, we found the loading process had the following:
 
@@ -124,7 +124,6 @@ using (XmlReader source = XmlReader.Create(_File))
         {
             XmlDocument doc = new XmlDocument();
             doc.LoadXml(source.ReadOuterXml());
-
             XmlElement readingElement = doc.DocumentElement;
             
             // continue processing ...
@@ -135,5 +134,6 @@ using (XmlReader source = XmlReader.Create(_File))
 {% endhighlight %}
 
 ## Conclusion
+Performance is always a challenge when dealing with energy data, but fun nevertheless.
 
 
