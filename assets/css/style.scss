@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .wrapper {
-    width: 960px;
+    width: 1060px;
 }
 
 p {
@@ -44,7 +44,7 @@ a:hover {
 
 section {
     padding-bottom: 0;
-    width: 650px;
+    width: 750px;
 }
 
 section#intro {
@@ -108,18 +108,22 @@ div#post-container {
         figure.highlight {
             margin-left: 0;
             margin-right: 0;
+
+            code {
+                font-size: 0.8em;
+            }
         }
     }
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1060px) {
     section {
         border: none;
         margin: 0;
     }
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1060px) {
     header, section, footer {
         width: auto;
     }
