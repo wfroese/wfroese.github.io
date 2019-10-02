@@ -120,6 +120,7 @@ div#post-container {
     section {
         border: none;
         margin: 0;
+        padding: 20px 0;
     }
 
     header, section, footer {
@@ -130,5 +131,11 @@ div#post-container {
 
     header {
         padding-right: 250px;
+    }
+}
+
+@media print, screen and (max-width: 720px) {
+    header {
+        padding-right: 0px;
     }
 }
