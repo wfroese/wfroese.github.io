@@ -110,34 +110,29 @@ In our simulation we were loading data for 2 million meters from one xml file. I
 
 We found that our app required **343GB of RAM** to load that file into memory. 
 
-In the end, the solution was just to stop using `XmlDocument` and use `XmlReader` instead:
+In the end, we found a solution that worked for us using a combination of `XmlDocument` and `XmlReader`. Instead of using `XmlDocument` to load the entire file into memory, we scanned the file using `XmlReader` first, and then loaded one individual node into memory at a time. This worked well for us because the rest of our existing code was already using the `XmlDocument` class, and so didn't require any changes.
+
+Same speed, several hundred less GBs of RAM required.
 
 {% highlight csharp %}
 
-public static IEnumerable<XmlElement> MeterReadings(this XmlReader source)
+using (XmlReader source = XmlReader.Create(_File))
 {
     while (source.Read())
     {
         if (source.NodeType == XmlNodeType.Element && source.Name == "MeterReadings")
         {
             XmlDocument doc = new XmlDocument();
-
             doc.LoadXml(source.ReadOuterXml());
-            yield return doc.DocumentElement;
+
+            XmlElement readingElement = doc.DocumentElement;
+            
+            // continue processing ...
         }
     }
 }
 
-using (XmlReader reader = XmlReader.Create(_File))
-{
-    IEnumerable<XmlElement> meterReadings = from xe in reader.MeterReadings() select xe;
-
-    // ...
-}
-
 {% endhighlight %}
-
-We ended up finding that `XmlReader` performance was basically identical to `XmlDocument`, without the need for several hundred GBs of RAM.
 
 ## Conclusion
 
