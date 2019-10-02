@@ -80,7 +80,7 @@ List<Meter> meters3 =
 ### Results
 
 ||Method One|Method Two|Method Three|
-|---|---|---|---|
+|---+---+---+---|
 |10,000 Meters, 10,000 Readings|1.3 seconds|15 milliseconds|5 milliseconds|
 |10,000 Meters, 100,000 Readings|34 seconds|30 milliseconds|28 milliseconds|
 |20,000 Meters, 100,000 Readings|67 seconds|21 milliseconds|30 milliseconds|
