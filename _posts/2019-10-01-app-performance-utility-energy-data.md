@@ -81,13 +81,13 @@ List<Meter> meters3 =
 
 ||Method One|Method Two|Method Three|
 |---+---+---+---|
-|10,000 Meters, 10,000 Readings|1.3 seconds|15 milliseconds|5 milliseconds|
-|10,000 Meters, 100,000 Readings|34 seconds|30 milliseconds|28 milliseconds|
-|20,000 Meters, 100,000 Readings|67 seconds|21 milliseconds|30 milliseconds|
-|10,000 Meters, 200,000 Readings|69 seconds|23 milliseconds|40 milliseconds|
-|20,000 Meters, 200,000 Readings|148 seconds|29 milliseconds|160 milliseconds|
-|50,000 Meters, 1,000,000 Readings|26 minutes|150 milliseconds|700 milliseconds|
-|100,000 Meters, 2,000,000 Readings|Probably infinity, who can say|407 milliseconds|1.2 seconds|
+|10,000 meters, 10,000 readings|1.3s|15 ms|5 ms|
+|10,000 meters, 100,000 readings|34s|30 ms|28 ms|
+|20,000 meters, 100,000 readings|67s|21 ms|30 ms|
+|10,000 meters, 200,000 readings|69s|23 ms|40 ms|
+|20,000 meters, 200,000 readings|148s|29 ms|160 ms|
+|50,000 meters, 1,000,000 readings|26 minutes|150 ms|700 ms|
+|100,000 meters, 2,000,000 readings|Probably infinity, who can say|407 ms|1.2s|
 
 With method 1, this task becomes literally impossible pretty quickly as the number of meters and readings grows, while with methods 2 & 3 this is a nearly trivial task.
 
@@ -98,9 +98,9 @@ After some investigation, we found the loading process had the following:
 
 {% highlight csharp %}
 
-    XmlDocument doc = new XmlDocument();
-    doc.Load(file);
-    XmlNodeList meterReadingNodes = doc.GetElementsByTagName("MeterReadings");
+XmlDocument doc = new XmlDocument();
+doc.Load(file);
+XmlNodeList meterReadingNodes = doc.GetElementsByTagName("MeterReadings");
 
 {% endhighlight %}
 
@@ -114,27 +114,26 @@ In the end, the solution was just to stop using `XmlDocument` and use `XmlReader
 
 {% highlight csharp %}
 
-    public static IEnumerable<XmlElement> MeterReadings(this XmlReader source)
+public static IEnumerable<XmlElement> MeterReadings(this XmlReader source)
+{
+    while (source.Read())
     {
-        while (source.Read())
+        if (source.NodeType == XmlNodeType.Element && source.Name == "MeterReadings")
         {
-            if (source.NodeType == XmlNodeType.Element && source.Name == "MeterReadings")
-            {
-                XmlDocument doc = new XmlDocument();
+            XmlDocument doc = new XmlDocument();
 
-                doc.LoadXml(source.ReadOuterXml());
-                yield return doc.DocumentElement;
-            }
+            doc.LoadXml(source.ReadOuterXml());
+            yield return doc.DocumentElement;
         }
     }
+}
 
+using (XmlReader reader = XmlReader.Create(_File))
+{
+    IEnumerable<XmlElement> meterReadings = from xe in reader.MeterReadings() select xe;
 
-    using (XmlReader reader = XmlReader.Create(_File))
-    {
-        IEnumerable<XmlElement> meterReadings = from xe in reader.MeterReadings() select xe;
-
-        // ...
-    }
+    // ...
+}
 
 {% endhighlight %}
 
