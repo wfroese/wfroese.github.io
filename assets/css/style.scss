@@ -121,10 +121,14 @@ div#post-container {
         border: none;
         margin: 0;
     }
-}
 
-@media print, screen and (max-width: 1150px) {
     header, section, footer {
         width: auto;
+        float: none;
+        position: static;
+    }
+
+    header {
+        padding-right: 250px;
     }
 }
