@@ -56,37 +56,38 @@ Improving on this code was fairly trivial, so I took two possible solutions and 
 
 {% highlight csharp %}
 
-    // 3. Method Two: Run through the readings and create a meter object for each unique serial number we find,
-    // but this time keep the meters in a Dictionary instead of a List.
-    Dictionary<string, Meter> meters2 = new Dictionary<string, Meter>();
-    foreach (Reading reading in readings)
+// 3. Method Two: Run through the readings and create a meter object for each unique serial number we find,
+// but this time keep the meters in a Dictionary instead of a List.
+Dictionary<string, Meter> meters2 = new Dictionary<string, Meter>();
+foreach (Reading reading in readings)
+{
+    if (!meters2.ContainsKey(reading.SerialNumber))
     {
-        if (!meters2.ContainsKey(reading.SerialNumber))
-        {
-            Meter meter = new Meter { SerialNumber = reading.SerialNumber };
-            meters2.Add(reading.SerialNumber, meter);
-        }
+        Meter meter = new Meter { SerialNumber = reading.SerialNumber };
+        meters2.Add(reading.SerialNumber, meter);
     }
+}
 
-    // 4. Method Three: Pure LINQ
-    List<Meter> meters3 = 
-        readings
-        .GroupBy(x => x.SerialNumber)
-        .Select(x => new Meter { SerialNumber = x.Key })
-        .ToList();
+// 4. Method Three: Pure LINQ
+List<Meter> meters3 = 
+    readings
+    .GroupBy(x => x.SerialNumber)
+    .Select(x => new Meter { SerialNumber = x.Key })
+    .ToList();
 
 {% endhighlight %}
 
 ### Results
+
 ||Method One|Method Two|Method Three|
 |---|---|---|---|
-|10,000 Meters, 10,000 Readings|1.3 seconds|15 milliseconds|5 milliseconds
-|10,000 Meters, 100,000 Readings|34 seconds|30 milliseconds|28 milliseconds
-|20,000 Meters, 100,000 Readings|67 seconds|21 milliseconds|30 milliseconds
-|10,000 Meters, 200,000 Readings|69 seconds|23 milliseconds|40 milliseconds
-|20,000 Meters, 200,000 Readings|148 seconds|29 milliseconds|160 milliseconds
-|50,000 Meters, 1,000,000 Readings|26 minutes|150 milliseconds|700 milliseconds
-|100,000 Meters, 2,000,000 Readings|Probably infinity, who can say|407 milliseconds|1.2 seconds
+|10,000 Meters, 10,000 Readings|1.3 seconds|15 milliseconds|5 milliseconds|
+|10,000 Meters, 100,000 Readings|34 seconds|30 milliseconds|28 milliseconds|
+|20,000 Meters, 100,000 Readings|67 seconds|21 milliseconds|30 milliseconds|
+|10,000 Meters, 200,000 Readings|69 seconds|23 milliseconds|40 milliseconds|
+|20,000 Meters, 200,000 Readings|148 seconds|29 milliseconds|160 milliseconds|
+|50,000 Meters, 1,000,000 Readings|26 minutes|150 milliseconds|700 milliseconds|
+|100,000 Meters, 2,000,000 Readings|Probably infinity, who can say|407 milliseconds|1.2 seconds|
 
 With method 1, this task becomes literally impossible pretty quickly as the number of meters and readings grows, while with methods 2 & 3 this is a nearly trivial task.
 
