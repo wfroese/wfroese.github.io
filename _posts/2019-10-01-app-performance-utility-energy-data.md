@@ -35,7 +35,7 @@ for (int i = 0; i < numReadings; i++)
 List<Meter> meters = new List<Meter>();
 foreach (Reading reading in readings)
 {
-    Meter meter = meters.SingleOrDefault(x => x.SerialNumber.Equals(reading.SerialNumber));
+    Meter meter = meters.SingleOrDefault(x => x.SerialNumber == reading.SerialNumber);
     if (meter == null)
     {
         meter = new Meter { SerialNumber = reading.SerialNumber };
