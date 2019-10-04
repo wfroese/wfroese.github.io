@@ -3,7 +3,7 @@ title: Will Froese
 description: ".NET software development, a software agency, and electrical utilities" 
 google_analytics: UA-47238342-7
 permalink: /blog/:title
-paginate: 2
+paginate: 3
 paginate_path: "/page:num"
 plugins:
   - jekyll-sitemap
