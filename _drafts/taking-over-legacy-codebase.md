@@ -16,5 +16,10 @@ description: A reference checklist for reviewing pull requests
 
 ## Consolidate Disparate Technologies
 
+## Tests
+- mostly integration, as code isn't designed to be testable 
+- then start refactoring to add unit tests
+
 ## Make a Plan to Address Technical Debt
+- strangler pattern
 
