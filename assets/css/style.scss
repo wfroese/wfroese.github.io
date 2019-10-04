@@ -31,6 +31,16 @@ body {
     strong {
         color: #555;
     }
+
+    .pagination {
+        margin-bottom: 15px;
+        text-align: right;
+
+        .previous, .page_number, .next {
+            display: inline-block;
+            padding-left: 20px;
+        }
+    }
 }
 
 a {
