@@ -1,19 +1,21 @@
 ---
 layout: default
 ---
-<section id="intro">
-  <div id="intro-content">
-    <h1>Hi, I'm Will.</h1>
-    <p>
-      I'm a software team lead at <a href="www.elevenwinds.com">Eleven Winds</a>.
-      We're a small agency, so I do a little bit of everything including development, design & architecture, long-term planning, mentoring & training, etc.
-    </p>
-    <p>
-      I currently lead Product Development for <a href="http://www.utilismartcorp.com/">Utilismart</a>, 
-      where we build tools for electric utility companies.
-    </p>
-  </div>
-</section>
+{% if paginator.page == 1 %}
+  <section id="intro">
+    <div id="intro-content">
+      <h1>Hi, I'm Will.</h1>
+      <p>
+        I'm a software team lead at <a href="www.elevenwinds.com">Eleven Winds</a>.
+        We're a small agency, so I do a little bit of everything including development, design & architecture, long-term planning, mentoring & training, etc.
+      </p>
+      <p>
+        I currently lead Product Development for <a href="http://www.utilismartcorp.com/">Utilismart</a>, 
+        where we build tools for electric utility companies.
+      </p>
+    </div>
+  </section>
+{% endif %}
 <section id="post-excerpts">
   {% for post in paginator.posts %}
     {% unless post.draft %}
