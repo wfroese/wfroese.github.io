@@ -1,5 +1,4 @@
 ---
-draft: true
 layout: post
 title: "Performance: A Production Story (or, how to use 350 GBs of RAM)"
 excerpt_separator: <!--end_excerpt-->
@@ -14,7 +13,7 @@ One thing I find interesting about working in the utility industry is that you a
 
 I've always liked performance tuning because of how satisfying it is when I can get an app running quicker with changes that are often seemingly minor. I've had two particularly fun cases over the last few years that illustrate why performance is so important when dealing with energy data.
 
-## Iterating Over Large Collections
+## Exponential Complexity
 In the first case, we found that a certain loading process was incredibly slow for a new customer that had around twice as many meters as the previous largest customer. Now, in general you would assume that a process would likely take twice as long for twice as many meters, but we were seeing run times of hours when we expected minutes.
 
 After doing some digging, I uncovered a bit of code written long ago that essentially boiled down to the block below:
@@ -50,6 +49,8 @@ And the performance of the `foreach` block that loops through the readings was n
 And so after taking a closer look, I realized the problem was that `.SingleOrDefault` was going through the list of meters one-by-one to find the object with the correct serial number, and the complexity of this is O(m*n), where m = the number of meters and n = the number of readings.
 
 O(m*n) is often generalized to O(n^2), meaning this algorithm had an exponential run-time, which explained why it got so much worse when we only doubled the amount of meters.
+
+This was a great example of something that works perfectly, until it all of a sudden doesn't work at all because of a poorly written algorithm.
 
 ### The Solution
 Improving on this code was fairly trivial, so I took two possible solutions and tested their performance to compare.
@@ -110,7 +111,7 @@ In our simulation we were loading data for 2 million meters from one xml file. I
 
 We found that our app required **343GB of RAM** to load that file into memory. 
 
-In the end, we found a solution that worked for us using a combination of `XmlDocument` and `XmlReader`. Instead of using `XmlDocument` to load the entire file into memory, we scanned the file using `XmlReader` first, and then loaded one individual node into memory at a time. This worked well for us because the rest of our existing code was already using the `XmlDocument` class, and so didn't require any changes.
+In the end, we found a better solution that worked for us using a combination of `XmlDocument` and `XmlReader`. Instead of using `XmlDocument` to load the entire file into memory, we scanned the file using `XmlReader` first, and then loaded one individual node into memory at a time. This worked well for us because the rest of our existing code was already using the `XmlDocument` class, and so didn't require any changes.
 
 Same speed, several hundred less GBs of RAM required.
 
