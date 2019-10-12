@@ -1,5 +1,4 @@
 ---
-draft: true
 layout: post
 title: "Automating Deployments of Oracle PL/SQL"
 excerpt_separator: <!--end_excerpt-->
@@ -49,7 +48,7 @@ We created a .NET console application where we add a new class for each of these
 The code of the console application is almost verbatim from [Fluent Migrator's Quick Start Guide](https://fluentmigrator.github.io/articles/quickstart.html?tabs=runner-in-process) so I won't repeat it here.
 
 ## PL/SQL
-For the next step, we need a way to handle Pl/SQL - stored procedures and packages of stored procedures. This we solved by deciding to treat PL/SQL code just like any other code.
+For the next step, we need a way to handle PL/SQL - stored procedures and packages of stored procedures. This we solved by deciding to treat PL/SQL code just like any other code.
 
 In our migrations console app we created in the previous step, we added a couple folders for procedures and packages, and then added a SQL script in those folders for every procedure and package in our production database. 
 
