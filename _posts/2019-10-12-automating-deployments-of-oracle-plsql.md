@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 title: "Automating Deployments of Oracle PL/SQL"
 excerpt_separator: <!--end_excerpt-->
@@ -86,3 +87,15 @@ using (OracleConnection conn = new OracleConnection(connectionString))
 }
 
 {% endhighlight %}
+
+## Review
+Let's go back and look at the requirements to see if we've met them all
+1. Database changes like adding/removing columns, creating new tables etc are handled by FluentMigrator migrations. 
+2. PL/SQL stored procedures and packages are handled by the sql scripts, one per procedure/package.
+3. All developers can make changes, simply by adding FluentMigrator migrations or adding/updating procedure & package sql scripts. 
+4. Migrations and PL/SQL updates are done on feature branches, and easily merged into different environments. If multiple developers make a change to the same procedure or package, merging is handled by git in the same way merging of C# code is handled. 
+5. All migrations are run through this console app, which is easy to plug into our deployment pipeline (using TeamCity and Octopus Deploy in our case). 
+6. FluentMigrator migrations all have a `Down()` method where the rollback script is specified. For PL/SQL rollbacks, we simply revert the merge commit that brought the PL/SQL changes into the `master` branch, and then re-deploy from master which will now have all PL/SQL scripts s they were before changes were merged in. 
+
+This system has been working really well for my team overall. While I don't love working in an environment with a lot of PL/SQL, automating those deployments does make it a bit more palatable.
+
