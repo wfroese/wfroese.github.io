@@ -21,7 +21,7 @@ Frankly, Jeff Atwood [tweeted it best](https://twitter.com/codinghorror/status/4
 So in the face of uncertainty and a bit of recurring imposter syndrome, I turned to what has basically become my solution to all significant problems: get advice from someone who actually knows stuff, via a book.
 
 ## The Manager's Path
-The book guides you through a career progression starting from software developer up to a senior technical manager over thousands of people. There's a section for each point of progression, which Camille considers as follows:
+The book guides you through a career progression starting from software developer up to a senior technical manager over thousands of people. There's a section for each point of progression, which the author considers as follows:
 
 1. Mentor
 2. Tech Lead
@@ -31,15 +31,17 @@ The book guides you through a career progression starting from software develope
 6. Managing Managers
 7. The Big Leagues (Senior manager at a Fortune 500)
 
-It's a very sensible layout, really - for post people (including me), there will be at least a few sections that are skippable because they're not really relevant to you, which makes the book even shorter (a good thing!).
+It's a very sensible layout, really - for most people (including me) there will be at least a few sections that aren't relevant and can be skipped, making it a fairly quick read.
 
 ## Mentoring
-I've been doing this for a lot of years now, and I really enjoy mentoring & teaching more junior developers. There was nothing groundbreaking here for me, but it was still useful, if only to give me some confidence that I am doing a decent job and not missing anything critical.
+I've been doing this for a lot of years now, and I really enjoy mentoring & teaching early-career developers. There was nothing groundbreaking here for me, but it was still useful, if only to give me some confidence that I am doing a decent job and not missing anything critical.
 
 ## Tech Lead
 The author describes a Tech Lead as a leadership position, but not a management position. The Tech Lead does spend a lot of time writing code, but also represents the team to management and other parts of the business. This person could handle some of the coordination, organizational, and project management work needed to make a project run smoothly. 
 
-One of the key insights for me in this section was how Tech Leads have to learn to find balance between their development work and management work. Some days are spent on a maker's schedule and others on a manager's schedule. I wish I had read this at the time, because I had some major struggles with this a few years ago. I found it nearly impossible to get into a zone enough to write some code without interruptions. Eventually I learned how to dedicate significant blocks of time for development. In these blocks I would ignore email, phones, and basically everything non-critical so I could focus on my work, and then schedule meetings & calls in groups rather than spread out throughout the day.
+One of the key insights for me in this section was how Tech Leads have to learn to find balance between their development work and management work. Some days are spent on a maker's schedule and others on a manager's schedule. 
+
+I wish I had read this two years ago, because I had some major struggles with this. I found it nearly impossible to get into a zone enough to write some code without interruptions. Eventually I learned how to dedicate significant blocks of time for development. In these blocks I would ignore email, phones, and basically everything non-critical so I could focus on my work, and then schedule meetings & calls in groups rather than spread out throughout the day.
 
 ## Managing People (or a Team)
 I'm currently managing a team of four developers, and this is where I really started to feel out of my depth. 
@@ -56,7 +58,7 @@ If I'm focused on my team's productivity, that means I will be:
 
 These are valuable insights to me because there are endless amounts of work I could be doing, and prioritizing is often difficult. These ideas will help me identify the highest-impact work to focus on.
 
-A few other key responsibilities picked up when managing a team:
+A few other key responsibilities you pick up when managing a team:
 
 1. Lead the delivery of major initiatives - no more small projects for you
 2. Potentially doing systems design & architecture, depending on your team
