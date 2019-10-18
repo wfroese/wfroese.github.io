@@ -3,6 +3,7 @@ layout: post
 title: "Windsor Software Companies & Jobs"
 excerpt_separator: <!--end_excerpt-->
 tags: software jobs
+image: /assets/images/ambassador.jpg
 cover_image: /assets/images/ambassador.jpg
 cover_alt_text: ambassador bridge in Windsor, Ontario
 description: A list of software & tech companies in Windsor Ontario

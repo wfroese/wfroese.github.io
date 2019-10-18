@@ -4,6 +4,7 @@ title: "Performance: A Production Story (or, how to use 350 GBs of RAM)"
 excerpt_separator: <!--end_excerpt-->
 tags: code performance energy-data
 cover_image: /assets/images/performance.jpg
+image: /assets/images/performance.jpg
 cover_alt_text: a speedometer
 description: Thoughts on application performance when working with utility energy data
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "The Manager's Path"
 excerpt_separator: <!--end_excerpt-->
 tags: books management
+image: /assets/images/managers-path.jpg
 cover_image: /assets/images/managers-path.jpg
 cover_alt_text: a laptop with code displayed
 description: A review of The Manager's Path (Camille Fournier), and what I learned from it.
