@@ -5,6 +5,7 @@ google_analytics: UA-47238342-7
 permalink: /blog/:title
 paginate: 4
 paginate_path: "/page:num"
+url: "https://willfroese.com"
 plugins:
   - jekyll-sitemap
   - jekyll-feed
