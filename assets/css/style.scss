@@ -6,6 +6,10 @@
 .wrapper {
     width: 1060px;
 
+    h1 {
+        font-size: 40px;
+    }
+
     #first-name {
         color: #4e2161;
         font-family: 'Averia Serif Libre', cursive;
@@ -14,6 +18,7 @@
     #last-name {
         color: #45b7b7;
         font-family: 'Averia Serif Libre', cursive;
+        margin-left: -10px;
     }
 }
 
