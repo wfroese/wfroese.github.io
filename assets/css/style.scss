@@ -32,13 +32,15 @@ body {
         h1 {
             font-size: 40px;
 
-            &:hover {
-                color: #4e2161;
-            }
+            
 
             #name-link {
                 border-bottom: 5px solid;
                 color: #45b7b7;
+
+                &:hover {
+                    color: #4e2161;
+                }
 
                 #first-name {
                     color: #4e2161;
