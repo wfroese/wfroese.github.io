@@ -14,6 +14,8 @@ I'm always interested in hearing from other developers what it's like working in
 
 <!--end_excerpt-->
 
+## Background
+
 A quick bit of background: [Utilismart]( http://www.utilismartcorp.com/ ) is a meter data management company, and we at [Eleven Winds]( https://www.elevenwinds.com/ ) are their software development team. I've been working with Utilismart for about four years now and I'm finally starting to get a feel for what the broader industry is like, though I'm not an expert by a long shot.
 
 ![Wind turbines on the horizon](/assets/images/windmills.jpg)
@@ -22,7 +24,7 @@ A quick bit of background: [Utilismart]( http://www.utilismartcorp.com/ ) is a m
 
 If you want to understand what software development in the utility industry is like, first you have to understand a few things about the industry in general.
 
-**Utilities are mostly small companies**
+#### **Utilities are mostly small companies**
 
 In the grand scheme of things, electric and water utility companies are mostly small. Imagine how many small towns and cities there are across central Canada and the US, and then realize that many of them have their own utility.
 
@@ -30,7 +32,7 @@ Most utilities are small enough that it's entirely unrealistic for them to have 
 
 Social media is an example where the companies themselves are the ones pushing the limits and innovating. In the utility industry, that's just not the case.
 
-**Utilities are sticky customers**
+### Utilities are sticky customers
 
 Migrating a utility company onto a new software platform is not simple, easy, or quick for anyone involved. So when a utility buys software from a third-party, they are likely to be staying on that platform for a very long time.
 
@@ -38,11 +40,12 @@ This means that third-party vendors put a lot of energy into sales. The lifetime
 
 Retaining customers is fairly easy though, relative to the initial onboarding, and you can generally expect to retain customers for many years.
 
-**There are a huge number of third-party vendors**
+### There are a huge number of third-party vendors
 
 There are many relatively small vendors in the industry, resulting in a lot of fragmentation. There are very few end-to-end providers, meaning that utilities are piecing together solutions with multiple vendors.
 
-**Modern Utilities Need a Lot of Software**
+![Power lines under dark sky](/assets/images/powerlines.jpg)
+### Modern Utilities Need a Lot of Software
 
 There are many moving parts to a modern utility, and each one needs software to run. Some of these different areas are:
 
@@ -56,13 +59,13 @@ There are many moving parts to a modern utility, and each one needs software to 
 
 There's a lot of overlap between these areas and the data that is needed for each one, but it's normal for a utility to meet these needs with 3-5 different tools/vendors.
 
-**Relying on multiple third-party tools requires a lot of integration work**
+### Relying on multiple third-party tools requires a lot of integration work
 
 Utilities have a major integration problem. It's rare for them to be able to buy a single platform that meets all their needs, and a significant amount of data needs to be shared across all the systems they use. This means the third-party tools they buy have to integrate, and the onboarding process often involves some custom development to make that integration happen.
 
 In the US there has been some success addressing this problem with [Multispeak]( https://www.multispeak.org/what-is-multispeak/ ), a collaboratively defined web service specification for making systems interoperable in the utility industry. Support for Multispeak among the third-party vendor tools is not consistent though, and even among the ones that do support it there are now several different versions. Most vendors only support one of the versions, so if you're doing integrations between several tools, you might end up using a different Multispeak version for each one.
 
-**The industry is shifting towards operating in real-time**
+### The industry is shifting towards operating in real-time
 
 Utilities increasingly need to be able to respond to events in real time. Demand/Response programs are being developed where utilities need to be able to respond to grid peaks by incentivizing customers to reduce their power usage temporarily, and this needs to happen in real-time. This means needing to ingest data in real time (rather than once a day), and also responding to these events at any time, as needed.
 
@@ -72,23 +75,23 @@ Utilities increasingly need to be able to respond to events in real time. Demand
 
 I talked a bit about what utility companies use software for exactly, but I want to also look at what sort of programming languages, platforms, & development tools are used. There's inevitably a lot more going on in the industry than I've been exposed to, but here's what I've seen.
 
-**Big Data**
+### Big Data
 
 A single meter producing a reading at intervals of 15 minutes will produce 35,000 readings a year. If you're a vendor providing services to many utilities, you might have a million meters in your system generating 35 million readings a year. This is one of the biggest problems in the utility space as the amount of data keeps on growing, and governments are moving towards requiring data collection at shorter intervals. 
 
 Oracle and SQL Server seems to be fairly common database systems, but there is also beginning to be a movement away from traditional relational databases towards specialized time-series databases. One such example is [Kx for sensors]( https://kx.com/solutions/utilities/ ).
 
-**Web Services**
+### Web Services
 
 In my experience, there is not a RESTful API or any JSON to be seen. XML and SOAP continue to be the standard, especially because the Multispeak protocol commonly used in the industry is based on SOAP.
 
-**The Cloud + Infrastructure as Code**
+### The Cloud + Infrastructure as Code
 
 There's been a trend the last several years towards building infrastructure as code, which has gone hand-in-hand with the public cloud companies building out their infrastructure in programmable ways. 
 
 The utility industry has been slow to adapt to these though, which isn't surprising - it's been slow to adapt to most software trends. In my experience, most software in this space is on premises or in private data centers.
 
-**Machine Learning and AI**
+### Machine Learning and AI
 
 Machine learning and AI are interesting, because a lot of the major vendors love to put them in their marketing materials. As usual, it's a bit difficult to pick out who's just throwing them up because they're nice buzz words, and who's actually using the tech.
 
@@ -96,7 +99,7 @@ From what I've seen, machine learning and AI are in the very, very early stages 
 
 There are potential use cases though, such as improving forecasting of how much energy a windmill will generate over the next few days, predicting power outages, 
 
-### Improving energy systems has a practical, positive impact on society
+## Improving energy systems has a practical, positive impact on society
 
 If you like to feel that your work is practical, useful, and has a positive impact on society, this might be the industry for you. Not everybody cares what industry they work in, but for myself, it helps to get me through the hard days knowing that I'm not working on selling more ads to more people.  
 

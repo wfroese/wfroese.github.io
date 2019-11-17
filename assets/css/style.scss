@@ -8,10 +8,10 @@
 }
 
 p {
-    margin-bottom: 10px;
+    margin-bottom: 1.6em;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 
@@ -20,10 +20,20 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #555;
+
+    a:hover {
+        font-weight: 700;
+    }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #555;
-    font-size: 16px;
+    font-size: 110%;
     line-height: 1.6;
     background-color: #f5f5f5;
     padding: 30px;
@@ -139,7 +149,7 @@ div#post-container {
         }
     
         h1 {
-            margin: 10px 0 10px 0;
+            margin: 1em 0 .5em 0;
             font-size: 32px;
         }
 
@@ -180,10 +190,18 @@ div#post-container {
     header {
         padding-right: 250px;
     }
+
+    .wrapper {
+        width: auto;
+    }
 }
 
 @media print, screen and (max-width: 720px) {
     header {
         padding-right: 0px;
+    }
+
+    body {
+        font-size: 100%;
     }
 }
