@@ -21,7 +21,6 @@ Note 1: I only have a vague idea of what many of these companies actually do - i
 Note 2: This is of course not a complete list, but it does include the majority of local software companies.
 
 ## Pure Software/Tech Companies
-1. [Eleven Winds](https://www.elevenwinds.com/): A software consultancy with specialties in e-commerce, warehouse management, and electrical utilities. 
 2. [BorderConnect](https://emanifest.borderconnect.com/): Provides software to help highway carriers submit their eManifests, making border crossings easier.
 4. [Halight](https://halight.com/): A software company that provides tools around learning management and training development of employees.
 5. [Wired Solutions](https://www.wiredsolutions.ca/#!): A software company that appears to focus on custom web development, with a special focus on healthcare and education in government.
@@ -34,6 +33,7 @@ Note 2: This is of course not a complete list, but it does include the majority 
 12. [Splice Digital](https://splicedigital.com/): A software agency
 13. [Elev8](https://www.elev8webstudio.com/): A Web Agency, specializing in WordPress development, hosting, and maintenance
 14. [Full Circle TMS](https://fullcircletms.com/): A startup in the transportation management industry
+15. [Eleven Winds](https://www.elevenwinds.com/): A software consultancy with specialties in e-commerce, warehouse management, and electrical utilities. This is where I work! Among other things, We handle all development for [Utilismart](http://www.utilismartcorp.com/), which is the team I run.
 
 ## Companies With Some Developers on Staff
 1. [Green Shield](https://www.greenshield.ca/en-ca): A health benefits company with a large office in Windsor including a development team.
