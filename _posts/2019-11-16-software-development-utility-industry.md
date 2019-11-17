@@ -77,7 +77,7 @@ I talked a bit about what utility companies use software for exactly, but I want
 
 ### Big Data
 
-A single meter producing a reading at intervals of 15 minutes will produce 35,000 readings a year. If you're a vendor providing services to many utilities, you might have a million meters in your system generating 35 million readings a year. This is one of the biggest problems in the utility space as the amount of data keeps on growing, and governments are moving towards requiring data collection at shorter intervals. 
+A single meter producing a reading at intervals of 15 minutes will produce 35,000 readings a year. If you're a vendor providing services to many utilities, you might have a million (or 50 million!) meters in your system generating hundreds of millions of readings per year. This is one of the biggest problems in the utility space as the amount of data keeps on growing, and governments are moving towards requiring data collection at shorter intervals. 
 
 Oracle and SQL Server seems to be fairly common database systems, but there is also beginning to be a movement away from traditional relational databases towards specialized time-series databases. One such example is [Kx for sensors]( https://kx.com/solutions/utilities/ ).
 
