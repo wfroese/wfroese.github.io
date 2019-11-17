@@ -18,7 +18,7 @@ In no particular order, here are the highlights of my year.
 
 ## Eleven Winds / Utilismart
 
-**I officially run a full team now**. For the last few years I've been basically a Senior Developer, often running projects with one or two other people. I wrote a lot of code and generally took on the hardest tasks, while delegating the easier ones and helping train/mentor some of the less experienced developers.
+**I officially run a team now**. For the last few years I've been basically a Senior Developer, often running projects with one or two other people. I wrote a lot of code and generally took on the hardest projects, while delegating the easier ones and helping train/mentor some of the less experienced developers.
 
 This February I made the jump to a full-on team lead/manager for Utilismart, a meter data management company, and I now have four developers on my team. I still write code, but only 25% of the time, and my primary responsibility now is figuring out what the business needs us to build and making sure my team members can be productive.
 
@@ -26,9 +26,9 @@ It's been a challenging adjustment, but I do have a tendency to get bored when t
 
 **I lead the launch of some major projects**. I'm proud of what my team has accomplished this year. We launched some major projects, including:
 
-1. A migration from Oracle to a time-series database was underway - we took this project over, completed it, and launched it. Long story, but this was probably the hardest thing I've ever done at work.
+1. A migration from Oracle to a time-series database was underway - we took this project over, completed it, and launched it. Long story, but this was probably the hardest thing I've ever done at work due to how many things had gone wrong that were out of our control.
 2. Rewrote a critical customer-facing Silverlight web app in React and launched it.
-3. Lots of other smaller projects.
+3. Lots of other smaller projects including new customer onboardings, etc.
 4. Everyone worked sane hours all year long.
 
 ## Be Intentional

@@ -2,7 +2,7 @@
 layout: post
 title: "Performance: A Production Story (or, how to use 350 GBs of RAM)"
 excerpt_separator: <!--end_excerpt-->
-tags: code performance energy-data
+tags: code performance energy-data utility-industry
 cover_image: /assets/images/performance.jpg
 image: /assets/images/performance.jpg
 cover_alt_text: a speedometer
