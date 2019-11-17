@@ -1,30 +1,30 @@
 ---
 layout: post
-title: "Taking Over a Legacy Codebase"
+title: "Software Development in the Utility Industry"
 excerpt_separator: <!--end_excerpt-->
 tags: utility-industry
-cover_image: /assets/images/pr-review.jpg
-cover_alt_text: a screen showing some code
-description: An overview of the state of software in the utility industry
+cover_image: /assets/images/earth-electricity.jpg
+cover_alt_text: the earth from space, showing lights from cities
+description: What software development is like in the electrical utility industry
 ---
 
 All companies are software companies in 2019, but there's a fairly large variance in how fast companies adopt the latest software advancements, particularly along industry lines. This makes the software landscape quite a bit different in some industries than others. Regulated industries such as healthcare, for example, are obviously slower than unregulated industries, and that leads to all kinds of differences in how a software team in healthcare operates compared to a team in the marketing industry.
 
-I'm always interested in hearing from other developers what it's like working in their specific domain so I thought it might be interesting to review the state of software in the utility industry, from a software developer's perspective. 
+I'm always interested in hearing from other developers what it's like working in their specific domain so I thought it might be interesting to review the state of software in the (electric/water) utility industry, from a software developer's perspective. 
 
 <!--end_excerpt-->
 
-A quick bit of background: [Utilismart]( http://www.utilismartcorp.com/ ) is a meter data management company, and we at [Eleven Winds]( https://www.elevenwinds.com/ ) are their software development team. I've been working with Utilismart for about four years now and I'm finally starting to get a feel for what the broader industry is like, but I'm no expert.
+A quick bit of background: [Utilismart]( http://www.utilismartcorp.com/ ) is a meter data management company, and we at [Eleven Winds]( https://www.elevenwinds.com/ ) are their software development team. I've been working with Utilismart for about four years now and I'm finally starting to get a feel for what the broader industry is like, though I'm not an expert by a long shot.
 
 ![Wind turbines on the horizon](/assets/images/windmills.jpg)
 
 ## The Industry
 
-If you want to understand the software side of things, first you have to understand a few things about the industry in general.
+If you want to understand what software development in the utility industry is like, first you have to understand a few things about the industry in general.
 
 **Utilities are mostly small companies**
 
-In the grand scheme of things, utility companies are mostly small. Imagine how many small towns and cities there are across central Canada and the US, and then realize that many of them have their own utility.
+In the grand scheme of things, electric and water utility companies are mostly small. Imagine how many small towns and cities there are across central Canada and the US, and then realize that many of them have their own utility.
 
 Most utilities are small enough that it's entirely unrealistic for them to have their own software team. This means there's a large (and increasing) demand for software tools & platforms for utilities as they look to modernize their operations. And since that demand isn't being filled by the utilities themselves, third-party software vendors have stepped in to offer a variety of SaaS and on-premises solutions.
 
