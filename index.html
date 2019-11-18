@@ -27,6 +27,9 @@ layout: default
           {% endif %}
           <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
           {{ post.excerpt }}
+          <div class="read-more-button-container">
+            <a href="{{ post.url }}" class="read-more-button">Read More</a>
+          </div>
         </div>
       </article>
     {% endunless %}
