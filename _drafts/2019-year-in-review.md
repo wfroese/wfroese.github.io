@@ -20,11 +20,13 @@ In no particular order, here are the highlights of my year.
 
 **I officially run a team now**. For the last few years I've been basically a Senior Developer, often running projects with one or two other people. I wrote a lot of code and generally took on the hardest projects, while delegating the easier ones and helping train/mentor some of the less experienced developers.
 
-This February I made the jump to a full-on team lead/manager for Utilismart, a meter data management company, and I now have four developers on my team. I still write code, but only 25% of the time, and my primary responsibility now is figuring out what the business needs us to build and making sure my team members can be productive.
+This February I made the jump to a full-on team lead/manager for [Utilismart]( http://www.utilismartcorp.com/ ), a meter data management company, and I now have four developers on my team. I still write code, but only 25% of the time, and my primary responsibility now is figuring out what the business needs us to build, how we're going to build that, and making sure my team members can be productive.
 
 It's been a challenging adjustment, but I do have a tendency to get bored when things get easy, so on the positive side I can't remember the last time I was bored. 
 
-**I lead the launch of some major projects**. I'm proud of what my team has accomplished this year. We launched some major projects, including:
+I wrote about [my transition to being responsible for a team]( https://willfroese.com/blog/the-managers-path), and also [what software development is like in the utility industry]( https://willfroese.com/blog/software-development-utility-industry).
+
+**My team launched some major projects this year**. I'm proud of what my team has accomplished this year. We launched some major projects, including:
 
 1. A migration from Oracle to a time-series database was underway - we took this project over, completed it, and launched it. Long story, but this was probably the hardest thing I've ever done at work due to how many things had gone wrong that were out of our control.
 2. Rewrote a critical customer-facing Silverlight web app in React and launched it.
@@ -43,15 +45,22 @@ So far, this system is working really well for me. I've been doing more things t
 
 ## Books
 
-## Fitness & Nutrition
+I read some really great books this year, both software-related and otherwise. A few of the highlights:
 
+1. [The Manager's Path (Camille Fourner)]( https://willfroese.com/blog/the-managers-path )
+2. Software Estimation: Demystifying the Black Art (Steve McConnell)
+3. [Designing Data-Intensive Applications (Martin Kleppman)](https://www.amazon.ca/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) 
+4. Foundation (Isaac Asimov) - Known as one of the best sci-fi series of all time, it lived up to it's reputation. 
+5. [Foundryside (Robert Jackson Bennett)]( https://www.amazon.com/Foundryside-Novel-Founders-Trilogy-Book-ebook/dp/B077RG422Z/ref=sr_1_1?keywords=foundryside&qid=1573960027&sr=8-1 ) - A sci-fi/fantasy that actually manages to be unique, and the start of a new series.
 
-## Family
-Kids etc..
-Spent some time in Florida
-Finished our basement/office renovation
+## Fitness
+
+This was a bit of a mixed bag, unfortunately. I've wanted to get stronger for years now, but every time I try I remember how much I dislike the gym. I'm trying again anyway, with a bit of extra motivation since I've turned 30 now. I'm also really starting to feel how my office job is affecting me, as I've lost a lot of flexibility over the last few years. I've had some success with getting to the gym more regularly in the last few months, so I'm hoping to continue that into next year.
+
+One positive was that I played baseball the entire summer with no injuries, which hasn't happened in a couple years. These days I don't have time to be out several times a week, so all I do is pitch, usually every 10-14 days for so. The last few years I've had arm injuries, but this year was clean!
 
 ## Goals
+
 I didn't have any goals at the beginning of 2019, so everything I accomplished was a bonus!
 
 ## 2020
