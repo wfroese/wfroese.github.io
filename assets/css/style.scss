@@ -11,6 +11,18 @@ p {
     margin-bottom: 1.6em;
 }
 
+.me {
+    border-radius: 50%;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 200px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 1px 11px rgba(103, 65, 114, 1), 
+        0 0 1px 22px rgba(174, 168, 211, 1);
+}
+
 h1, h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
