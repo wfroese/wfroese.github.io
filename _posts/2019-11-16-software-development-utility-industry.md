@@ -4,6 +4,7 @@ title: "Software Development in the Utility Industry"
 excerpt_separator: <!--end_excerpt-->
 tags: utility-industry energy-data
 cover_image: /assets/images/earth-electricity.jpg
+image: /assets/images/earth-electricity.jpg
 cover_alt_text: the earth from space, showing lights from cities
 description: What software development is like in the electrical utility industry
 ---
