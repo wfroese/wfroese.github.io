@@ -4,6 +4,7 @@ title: "Evaluating a Software Team's Effectiveness"
 excerpt_separator: <!--end_excerpt-->
 tags: code performance energy-data
 cover_image: /assets/images/performance.jpg
+image: /assets/images/performance.jpg
 cover_alt_text: a speedometer
 description: Thoughts on evaluating the effectiveness of software teams
 ---

@@ -4,6 +4,7 @@ title: "Taking Over a Legacy Codebase"
 excerpt_separator: <!--end_excerpt-->
 tags: code best-practices software-teams
 cover_image: /assets/images/pr-review.jpg
+image: /assets/images/pr-review.jpg
 cover_alt_text: a screen showing some code
 description: How to modernize a legacy codebase
 ---
@@ -36,7 +37,7 @@ So I was left trying to strike a balance between meeting immediate needs and add
 
 Step one was to make management aware of the situation. This is a delicate topic, because you don't want to come across as claiming everyone at the company involved with the software has done a terrible job, or that all your predecessors were terrible developers (even if that's true!). 
 
-That wasn't really the case here anyway - in this situation, I think the issues were more structural, rather than the result of incompetence of any one person. Basically, there had been a lot of turnover for several years, combined with a lack of cohesive senior technical leadership. This basically lead to complete chaos throughout the code base, and let me tell you, I was just **shocked** to find out this lead to even more turnover.
+That wasn't really the case here anyway - in this situation, I think the issues were more structural, rather than the responsibility of any one person. Basically, there had been a lot of turnover for several years, and several third-party development teams, so nobody had been around long enough to enforce any cohesion between the different systems & teams. This basically lead to complete chaos throughout the code base, and let me tell you, I was just **shocked** to find out this lead to even more turnover, when developers realized they didn't want to deal with the mess.
 
 One thing I regularly find is that non-technical management doesn't understand how these sorts of issues actually affect their business. I think this is because the impact is not easily measurable, and the effects often aren't seen in the short term.
 

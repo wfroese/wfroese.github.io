@@ -24,7 +24,7 @@ This February I made the jump to a full-on team lead/manager for [Utilismart]( h
 
 It's been a challenging adjustment, but I do have a tendency to get bored when things get easy, so on the positive side I can't remember the last time I was bored. 
 
-I wrote about [my transition to being responsible for a team]( https://willfroese.com/blog/the-managers-path), and also [what software development is like in the utility industry]( https://willfroese.com/blog/software-development-utility-industry).
+I wrote more in-depth about [my transition to being responsible for a team]( https://willfroese.com/blog/the-managers-path), as well as [what software development is like in the utility industry]( https://willfroese.com/blog/software-development-utility-industry)
 
 **My team launched some major projects this year**. I'm proud of what my team has accomplished this year. We launched some major projects, including:
 
@@ -57,7 +57,7 @@ I read some really great books this year, both software-related and otherwise. A
 
 This was a bit of a mixed bag, unfortunately. I've wanted to get stronger for years now, but every time I try I remember how much I dislike the gym. I'm trying again anyway, with a bit of extra motivation since I've turned 30 now. I'm also really starting to feel how my office job is affecting me, as I've lost a lot of flexibility over the last few years. I've had some success with getting to the gym more regularly in the last few months, so I'm hoping to continue that into next year.
 
-One positive was that I played baseball the entire summer with no injuries, which hasn't happened in a couple years. These days I don't have time to be out several times a week, so all I do is pitch, usually every 10-14 days for so. The last few years I've had arm injuries, but this year was clean!
+One positive was that I played baseball the entire summer with no injuries, which hasn't happened in a couple years. These days I don't have time to go out several times a week, so all I do is pitch, usually every 10-14 days for so. The last few years I've had arm injuries, but this year was clean!
 
 ## Goals
 
