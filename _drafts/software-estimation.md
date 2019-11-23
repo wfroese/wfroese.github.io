@@ -6,15 +6,19 @@ tags: best-practices software-teams
 cover_image: /assets/images/pr-review.jpg
 image: /assets/images/pr-review.jpg
 cover_alt_text: a screen showing some code
-description: My favorite parts of Software Estimation: Demystifying the Black Art by Steve McConnell
+description: A review - the best parts of "Software Estimation: Demystifying the Black Art" by Steve McConnell
 
 ---
 
-A few months ago I had the chance to read through Steve McConnell's [Software Estimation: Demystifying the Black Art]( https://www.amazon.com/Software-Estimation-Demystifying-Developer-Practices/dp/0735605351/ref=sr_1_1?crid=1A2HYDAQ01MWJ&keywords=software+estimation+demystifying+the+black+art&qid=1574211099&sprefix=software+estimation%2Caps%2C179&sr=8-1 ). Until this book I had about as much confidence in my estimates as TODO
+Classic situation: your manager comes to you and says 
 
-The book isn't overly long, at 275 pages, which is fantastic compared to Steve's [Code Complete]( https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_1?keywords=code+complete&qid=1574211216&sr=8-1 ), which is a monstrosity (albeit a very good one!) checking in at 960 pages. 
+> We've got a new project coming down the line - here's a spec, I need you to do an estimate - I'm thinking we can get this thing done in 8 months.
 
-Anyway, this book was so incredibly useful I simply had to take a lot of notes, and I've reviewed those notes several times since, trying to remember everything. 
+Or am I the only one whose manager tells them what they want the estimate to be before asking for an estimate?
+
+Anyway, the "spec" is a one-page doc, and it's a bazillion dollar project that they don't want to pay a bazillion dollars for. No pressure. 
+
+The bottom line is estimating isn't easy, and I have a hard time feeling confident in my estimates. So a few months ago when I had the chance to read through Steve McConnell's [Software Estimation: Demystifying the Black Art]( https://www.amazon.com/Software-Estimation-Demystifying-Developer-Practices/dp/0735605351/ref=sr_1_1?crid=1A2HYDAQ01MWJ&keywords=software+estimation+demystifying+the+black+art&qid=1574211099&sprefix=software+estimation%2Caps%2C179&sr=8-1 ), I picked up a lot of useful info.
 
 <!--end_excerpt-->
 
@@ -78,8 +82,6 @@ Man, I have never felt so attacked in my life. I'm a people-pleaser Steve, I can
 4. Management effort often amounts to 10-12% of total effort, for projects < 100K LOC
 5. Technical effort is often divided up as: 15% architecture, 60% construction, 25% QA
 
-
-
 ### An Estimating Workflow
 
 The book covers a several different estimation methods, but I'll cover two here.
@@ -104,9 +106,56 @@ This formula accounts for the full with of the best-to-worst case range, and als
 
 ### Activities Commonly Forgotten in Estimates
 
+My estimates are always perfect, but I'm sure you forget to include things all the time. Steve's got a list of about 40 things, but here are the ones most relevant for myself:
 
+1. Ramp-up time for new hires
+2. Learning new development tools/frameworks/languages
+3. Writing documentation: technical, user guides, etc
+4. Support of existing systems during the project, which means you'll have less time on the new project, thereby extending any commitments
+5. Performance tuning
+6. Doing demos to management, customers, end-users etc
+7. Setting up build/deploy pipelines
+8. Time spent clarifying and refining requirements - even if you thought they were clear before you started writing code, you inevitably find out they weren't clear enough
 
 ### Estimate Adjustment Factors
+
+The book lists a set of factors that affect project outcomes and defines how much each factor can affect a project in a best and worst case scenario. This chart can be used to adjust an estimate based on each factor in your specific context.
+
+For example, the first item is "Product Complexity", which can decrease total effort by as much as 27% for low-complexity projects and increase total effort by as much as 74% for high-complexity projects. Of course, your project is likely somewhere in between - you define that, and apply the adjustment as appropriate.
+
+|Factor|Best Case|Worst Case|
+|---+---+---+---|
+
+| Product Complexity               | -27% | +74% |
+| -------------------------------- | ---- | ---- |
+| Requirements Analyst Capability  | -29% | +42% |
+| Programmer Capability            | -24% | +34% |
+| Personnel Continuity (Turnover)  | -19% | +29% |
+| Required Software Reliability    | -18% | +26% |
+| Extent of Required Documentation | -19% | +23% |
+| Domain Experience                | -19% | +22% |
+| Language & Tools Experience      | -16% | +20% |
+| Database Size                    | -10% | +28% |
+| Developed for Reuse              | -5%  | +24% |
+| Team Cohesion                    | -14% | +11% |
+
+### End
+
+I'd like to say that estimation is now nice and easy for me, all thanks to this book.. so I will!
+
+Estimation is now nice and easy for me, all thanks to this book. 
+
+In other news, don't believe everything you read on the internet, folks. In reality though, here's how this book (mildly) changed my life:
+
+1. I have a touch less of the ol' imposter syndrome when estimating big projects. I've filled in a few gaps in my estimating methodology, and now feel comfortable that I'm not missing anything major.
+2. I started tracking some historical estimate vs outcome data, in hopes that it will be useful once there are enough data points.
+3. I just wrote this here fancy reference post, which I will come back to when I next have to estimate a bazillion dollar project from a one-page "spec". I'll use the "Activities Commonly Forgotten", and "Adjustment Factors" to improve my estimate as needed.
+
+
+
+
+
+
 
 
 
