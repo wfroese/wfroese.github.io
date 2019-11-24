@@ -11,7 +11,7 @@ description: How to modernize a legacy codebase
 
 Earlier this year I was put in charge of the team that was taking over all software development for a client of ours. 
 
-Unfortunately, the code base was not in a good state (that's what we in the business call an understatement), and that was causing a lot of problems for the client. I had been working in parts of this code base for a few years, but now that I was running the entire team, I finally had the chance to address the root of the problem, rather than just putting in patches on top of patches.
+Unfortunately, the code base was not in a good state (that's what we in the business call an understatement), and that was causing a lot of problems. I had been working in parts of this code base for a few years, but now that I was running the entire team, I finally had the chance to address the root of the problem, rather than just putting in patches on top of patches.
 
 <!--end_excerpt-->
 
@@ -33,13 +33,13 @@ Now, as a developer, I would love to have as much time as I needed to fix all th
 
 So I was left trying to strike a balance between meeting immediate needs and addressing some of the bigger issues that were slowing down development. This is the story of how we approached the situation.
 
-## #1. Educate Management
+## #1. Make Management Aware
 
 Step one was to make management aware of the situation. This is a delicate topic, because you don't want to come across as claiming everyone at the company involved with the software has done a terrible job, or that all your predecessors were terrible developers (even if that's true!). 
 
-That wasn't really the case here anyway - in this situation, I think the issues were more structural, rather than the responsibility of any one person. Basically, there had been a lot of turnover for several years, and several third-party development teams, so nobody had been around long enough to enforce any cohesion between the different systems & teams. This basically lead to complete chaos throughout the code base, and let me tell you, I was just **shocked** to find out this lead to even more turnover, when developers realized they didn't want to deal with the mess.
+That wasn't really the case here anyway - in this situation, I think the issues were more structural, rather than the responsibility of any one person. Basically, there had been a lot of turnover for several years, and several third-party development teams, so nobody had been around long enough to enforce any cohesion between the different systems & teams. This basically lead to complete chaos throughout the code base, and let me tell you, I was just **shocked** to find out this mess lead to even more turnover, when developers realized they didn't want to deal with it.
 
-One thing I regularly find is that non-technical management doesn't understand how these sorts of issues actually affect their business. I think this is because the impact is not easily measurable, and the effects often aren't seen in the short term.
+One thing I regularly find is that non-technical management doesn't understand how these types of issues actually affect their business. I think this is because the impact is not easily measurable, and the effects often aren't seen in the short term.
 
 Here's a few examples of what I mean:
 
@@ -103,12 +103,9 @@ It depends on the situation, but for us, this step required a lot more work educ
 
 Breaking out of this cycle wasn't particularly easy and took a lot of patience, as organizational change often does.
 
-I'm going to quote Jeff Atwood again, because this is basically my life's motto, and I'm trying to set a world record for how many times you can use the same quote in context:
+I'm going to quote Jeff Atwood again, because this is basically my life's motto, and I'm trying to set a world record for how many times this tweet has been referenced:
 
->  *Got into computers because I enjoyed talking to machines instead of people. Now computers are all about talking to people. This is some bullshit* 
->
-> -- Jeff Atwood
-
+<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Got into computers because I enjoyed talking to machines instead of people. Now computers all about talking to people. This is some bullshit</p>&mdash; Jeff Atwood (@codinghorror) <a href="https://twitter.com/codinghorror/status/472488806126714880?ref_src=twsrc%5Etfw">May 30, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 ## #5. Make a Plan to Address Technical Debt
 
 So at this point, management is aware of the situation, there are no outstanding critical bugs, you've got a decent start on critical documentation, and you're put yourself in position to deploy smoothly and frequently.

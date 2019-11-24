@@ -18,5 +18,5 @@ Learning Projects:
 4. IESO - utilities
 5. .NET 5
 6. Docker
-7. Distributed systems
+7. Distributed systems architecture
 8. 

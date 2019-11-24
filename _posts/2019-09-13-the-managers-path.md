@@ -16,9 +16,7 @@ For starters, a bit of context might be helpful. I've been a software developer 
 
 My management responsibilities have grown significantly in the last year. I've found myself on unfamiliar ground, trying to figure out what I should be doing and how I should be doing it. Software management and software development have very different responsibilities and required skill sets, yet it remains normal that developers get put into management positions with no training whatsoever. And yet I've always thought of myself as a developer, and my strengths were always technical. 
 
-Frankly, Jeff Atwood [tweeted it best](https://twitter.com/codinghorror/status/472488806126714880):
-> Got into computers because I enjoyed talking to machines instead of people. Now computers are all about talking to people. This is some bullshit
-
+Frankly, Jeff Atwood tweeted it best:
 <blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Got into computers because I enjoyed talking to machines instead of people. Now computers all about talking to people. This is some bullshit</p>&mdash; Jeff Atwood (@codinghorror) <a href="https://twitter.com/codinghorror/status/472488806126714880?ref_src=twsrc%5Etfw">May 30, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 So in the face of uncertainty and a bit of recurring imposter syndrome, I turned to what has basically become my solution to all significant problems: get advice from someone who actually knows stuff, via a book.
