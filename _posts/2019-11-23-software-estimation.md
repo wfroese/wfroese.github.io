@@ -89,14 +89,12 @@ Man, I have never felt so attacked in my life. I'm a people-pleaser Steve, I can
 The book covers several different estimation methods, but I'll cover two here.
 
 **Count & Compute**
-
 1. **Count** things. You could count features, bugs, user stories, web pages, reports, database tables, etc. The key is to count something that is closely correlated with the size of the software you're building. Steve says that statistically, you need a count of at least 20 for the count to be meaningful.
 2. **Compute** things. Here's where you pull out the perfectly curated historical estimate data that you've been tracking for a while. If you counted out 18 different reports that need building, and you know that the past 10 reports you built averaged out to 30 hours, then your estimate is simply 18 * 30 = 540 hours.
 
 Apparently this simple averaging of historical data is proven to be quite accurate (proven by like, research and stuff), which surprised me a little. Of course, we didn't have any historical data on our team - I've since seen the light and realized how valuable it can be, so I've started tracking some of it.
 
 **Individual Expert Judgement**
-
 1. Take the large project and divide it into smaller tasks, where each task is no more than two days of effort.
 2. Do **best and worst case estimates** for each of the tasks. In many cases, the worst case estimate will be far, far higher than the best case estimate.
 3. Estimate a "most likely case" for each task, simply using judgement. This is likely to be closer to the best case than the worst case, for most tasks.
@@ -109,7 +107,6 @@ This formula accounts for the full width of the best-to-worst case range, and al
 ### Activities Commonly Forgotten in Estimates
 
 My estimates are always perfect, but I'm sure *you* forget to include things all the time. Steve's got a list of about 40 things, but here are the ones most relevant for myself:
-
 1. Ramp-up time for new hires
 2. Learning new development tools/frameworks/languages
 3. Writing documentation: technical, user guides, etc
@@ -146,7 +143,6 @@ I'd like to say that estimation is now nice and easy for me, all thanks to this 
 Estimation is now nice and easy for me, all thanks to this book. 
 
 In other news, don't believe everything you read on the internet, folks. In reality though, here's how this book (mildly) changed my life:
-
 1. I have a touch less of the ol' imposter syndrome when estimating big projects. I've filled in a few gaps in my estimating methodology, and now feel comfortable that I'm not missing anything major.
 2. I started tracking some historical estimate vs outcome data, in hopes that it will be useful once there are enough data points.
 3. I just wrote this here fancy reference post, which I will come back to when I next have to estimate a bazillion dollar project from a one-page "spec". I'll use the "Activities Commonly Forgotten", and "Adjustment Factors" to improve my estimate as needed.
