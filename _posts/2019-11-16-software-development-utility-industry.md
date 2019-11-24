@@ -11,8 +11,6 @@ description: What software development is like in the electrical utility industr
 
 All companies are software companies in 2019, but there's a fairly large variance in how fast companies adopt the latest software advancements, particularly along industry lines. In some industries you move fast and break things, and other industries you wait two weeks for people to respond to emails so you can do some actual work. 
 
-This makes the software landscape quite a bit different in some industries than others. Regulated industries like healthcare, for example, are obviously slower than unregulated industries and that leads to all kinds of differences in how a software team in healthcare operates compared to a team working on a startup in marketing.
-
 I'm always interested in hearing from other developers what it's like working in their domain so I thought it might be interesting to review the state of software in the (electric/water) utility industry, from a software developer's perspective. 
 
 <!--end_excerpt-->

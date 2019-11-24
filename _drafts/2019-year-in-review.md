@@ -47,11 +47,11 @@ So far, this system is working really well for me. I've been doing more things t
 
 I read some really great books this year, both software-related and otherwise. A few of the highlights:
 
-1. [The Manager's Path (Camille Fourner)]( https://willfroese.com/blog/the-managers-path )
-2. Software Estimation: Demystifying the Black Art (Steve McConnell)
+1. [The Manager's Path (Camille Fourner)](https://willfroese.com/blog/the-managers-path)
+2. [Software Estimation: Demystifying the Black Art (Steve McConnell)](https://willfroese.com/blog/software-estimation)
 3. [Designing Data-Intensive Applications (Martin Kleppman)](https://www.amazon.ca/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) 
 4. Foundation (Isaac Asimov) - Known as one of the best sci-fi series of all time, it lived up to it's reputation. 
-5. [Foundryside (Robert Jackson Bennett)]( https://www.amazon.com/Foundryside-Novel-Founders-Trilogy-Book-ebook/dp/B077RG422Z/ref=sr_1_1?keywords=foundryside&qid=1573960027&sr=8-1 ) - A sci-fi/fantasy that actually manages to be unique, and the start of a new series.
+5. [Foundryside (Robert Jackson Bennett)](https://www.amazon.com/Foundryside-Novel-Founders-Trilogy-Book-ebook/dp/B077RG422Z/ref=sr_1_1?keywords=foundryside&qid=1573960027&sr=8-1) - A sci-fi/fantasy that actually manages to be unique, and the start of a new series.
 
 ## Fitness
 
