@@ -213,6 +213,12 @@ div#post-container {
     vertical-align: top;
 }
 
+.twitter-follow-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 @media print, screen and (max-width: 1150px) {
     section {
         border: none;
