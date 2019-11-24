@@ -3,7 +3,7 @@ title: Will Froese
 description: "Software development, a software agency, and electrical utilities" 
 google_analytics: UA-47238342-7
 permalink: /blog/:title
-paginate: 4
+paginate: 7
 paginate_path: "/page:num"
 url: "https://willfroese.com" # apparently this is needed so twitter cards can include images?
 twitter:
