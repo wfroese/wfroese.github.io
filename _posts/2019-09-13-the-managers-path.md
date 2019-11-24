@@ -19,6 +19,8 @@ My management responsibilities have grown significantly in the last year. I've f
 Frankly, Jeff Atwood [tweeted it best](https://twitter.com/codinghorror/status/472488806126714880):
 > Got into computers because I enjoyed talking to machines instead of people. Now computers are all about talking to people. This is some bullshit
 
+<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Got into computers because I enjoyed talking to machines instead of people. Now computers all about talking to people. This is some bullshit</p>&mdash; Jeff Atwood (@codinghorror) <a href="https://twitter.com/codinghorror/status/472488806126714880?ref_src=twsrc%5Etfw">May 30, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 So in the face of uncertainty and a bit of recurring imposter syndrome, I turned to what has basically become my solution to all significant problems: get advice from someone who actually knows stuff, via a book.
 
 ## The Manager's Path
@@ -52,7 +54,7 @@ One of the most important insights for me here was that as a manager, **you are 
 A corollary: the productivity of the people on my team is more important than my own productivity, since I spend less time writing code.
 
 If I'm focused on my team's productivity, that means I will be:
- 
+
 1. Identifying bottlenecks and roadblocks, both current and future, and clearing them so the team can continue building things
 2. Allowing my team to code for long stretches, trying to avoid interrupting them unnecessarily
 3. Writing some code myself, but trying to avoid core components of releases that have upcoming deadlines. I can get pulled away from code at any time, so I don't want to have my team waiting for me to finish my code before they can move on.
