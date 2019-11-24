@@ -21,13 +21,15 @@ The bottom line is estimating isn't easy, and I have a hard time feeling confide
 
 <!--end_excerpt-->
 
+### The Baseline
+
 Let me start with a random stat that Steve shares: **the typical organization is struggling to avoid estimates that are off by 100% or more.** They're not in a position to worry about 10-20% differences, but instead are worried about projects completely blowing up in their faces and destroying any semblance of a schedule/plan. 
 
 When an organization is at this stage, it makes it incredibly difficult to do any serious long term planning, as you can't have any real confidence about how ongoing & upcoming software projects are going to turn out, and how much they will cost.
 
 ### Estimate vs Target vs Commitment
 
-The first thing you need to know is exactly what the business needs, and what you're being asked for, and that's not always clear. 
+The first thing you need to know is exactly what the business needs and what you're being asked for, and that's not always clear. 
 
 **Estimate:** "a preliminary calculation of the cost of a project" - an estimate is tentative, and subject to change as new information comes to light
 
@@ -50,7 +52,7 @@ The right side of that chart, on the other hand, has a **very long tail**. There
 
 Here, I drew a really professional visualization of this for you. That long tail on the right is [Where the Wild Things Are]( https://www.amazon.com/Where-Wild-Things-Maurice-Sendak/dp/0064431789 ), and you do not want to be there.
 
-![Project outcome probabilities - a chart](/assets/images/project-outcome-probabilities.png)
+![Project outcome probabilities - a chart](/assets/images/project-outcome-probability.png)
 
 ### What is a "Good" Estimate?
 
