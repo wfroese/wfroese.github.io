@@ -3,9 +3,9 @@ layout: post
 title: "Software Estimation: Demystifying the Black Art"
 excerpt_separator: <!--end_excerpt-->
 tags: best-practices software-teams
-cover_image: /assets/images/pr-review.jpg
-image: /assets/images/pr-review.jpg
-cover_alt_text: a screen showing some code
+cover_image: /assets/images/software-estimation-cover.jpg
+image: /assets/images/software-estimation-cover.jpg
+cover_alt_text: a shelf full of books
 description: A review - the best parts of "Software Estimation: Demystifying the Black Art" by Steve McConnell
 
 ---
@@ -22,13 +22,13 @@ The bottom line is estimating isn't easy, and I have a hard time feeling confide
 
 <!--end_excerpt-->
 
-Let me start with a random stat that Steve shares: **the typical organization is struggling to avoid estimates that are off by 100% or more.** They're not in a position to worry about 10-20% differences, but instead are worried about projects completely blowing up in their faces and destroying any semblance of a schedule/plan. When an organization is at this stage, it makes it incredibly difficult to do any serious long term planning, as you can't have any real confidence about how ongoing & upcoming software projects are going to turn out, and how much they will cost.
+Let me start with a random stat that Steve shares: **the typical organization is struggling to avoid estimates that are off by 100% or more.** They're not in a position to worry about 10-20% differences, but instead are worried about projects completely blowing up in their faces and destroying any semblance of a schedule/plan. 
 
-Now, I'm sure this number varies by industry and size of the company. In my experience it checks out though, especially with larger projects.
+When an organization is at this stage, it makes it incredibly difficult to do any serious long term planning, as you can't have any real confidence about how ongoing & upcoming software projects are going to turn out, and how much they will cost.
 
 ### Estimate vs Target vs Commitment
 
-It turns out the first thing you need to know exactly what the business needs, and what you're being asked for, and that's not always clear. 
+The first thing you need to know is exactly what the business needs, and what you're being asked for, and that's not always clear. 
 
 **Estimate:** "a preliminary calculation of the cost of a project" - an estimate is tentative, and subject to change as new information comes to light
 
@@ -38,19 +38,20 @@ It turns out the first thing you need to know exactly what the business needs, a
 
 The key here is to figure out what you're being asked for. When your management asks for an estimate, be sure they're not asking for a commitment, or for a plan to meet a target. Of course, I would personally never make the mistake of giving someone an estimate and having them understand it as a commitment, no sir not ever.
 
-This communication can be tricky! I mean all communication can be tricky for me, frankly, hence the reason I got into software development in the first place. This would be the place where I quote Mr. Atwood again.
+This communication can be tricky! I mean all communication can be tricky for me, frankly, hence the reason I got into software development in the first place. This would be the place where I reference Mr. Atwood again.
 
-> *Got into computers because I enjoyed talking to machines instead of people. Now computers are all about talking to people. This is some bullshit* 
->
-> -- Jeff Atwood
-
+<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Got into computers because I enjoyed talking to machines instead of people. Now computers all about talking to people. This is some bullshit</p>&mdash; Jeff Atwood (@codinghorror) <a href="https://twitter.com/codinghorror/status/472488806126714880?ref_src=twsrc%5Etfw">May 30, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 ### Random Thing About Software Projects You Want to Understand
 
 Oh, and you probably want your management to understand this, as well.
 
-If you draw software project outcomes on a chart, you will see a hard limit to the left. That is, there is a theoretical limit for how quickly a project can be completed, and at some point, there is just no possible way it can be done in less time.
+If you draw software project outcome probabilities on a chart, you will see a hard limit to the left. That is, there is a theoretical limit for how quickly a project can be completed, and at some point, there is just no possible way it can be done in less time.
 
-The right side of that chart, on the other hand, has a **very long tail**. There are infinite things that can and will go wrong occasionally, turning a one year project into a three year project. I totally just picked that "one year into three years" example out of thin air, I have no personal experience with anything like that, why do you ask.
+The right side of that chart, on the other hand, has a **very long tail**. There are infinite things that can and will go wrong occasionally, turning a one year project into a three year project. I totally just picked that "one year into three years" example out of thin air of course - I have no personal experience with anything like that, why do you ask.
+
+Here, I drew a really professional visualization of this for you. That long tail on the right is [Where the Wild Things Are]( https://www.amazon.com/Where-Wild-Things-Maurice-Sendak/dp/0064431789 ), and you do not want to be there.
+
+![Project outcome probabilities - a chart](/assets/images/project-outcome-probabilities.png)
 
 ### What is a "Good" Estimate?
 
@@ -76,7 +77,7 @@ Man, I have never felt so attacked in my life. I'm a people-pleaser Steve, I can
 
 ### Several Factors to Consider When Estimating
 
-1. Consider planning for X% increase in requirements. NASA plans for 40% (!!!!! You're not crazy after all Will, this is normal, everybody is doing it...)
+1. Consider planning for X% increase in requirements. NASA plans for 40% (!!!!! You're not crazy after all Will, this is normal, literally nobody can figure out what the hell they want to build before they build it...)
 2. Never give estimates off the top of your head. The answer is always always always "I'll look into it and get back to you."
 3. As the project team gets bigger, the number of communication paths goes up, causing productivity to go down. Factor team size into the estimate.
 4. Management effort often amounts to 10-12% of total effort, for projects < 100K LOC
@@ -84,14 +85,14 @@ Man, I have never felt so attacked in my life. I'm a people-pleaser Steve, I can
 
 ### An Estimating Workflow
 
-The book covers a several different estimation methods, but I'll cover two here.
+The book covers several different estimation methods, but I'll cover two here.
 
 **Count & Compute**
 
 1. **Count** things. You could count features, bugs, user stories, web pages, reports, database tables, etc. The key is to count something that is closely correlated with the size of the software you're building. Steve says that statistically, you need a count of at least 20 for the count to be meaningful.
 2. **Compute** things. Here's where you pull out the perfectly curated historical estimate data that you've been tracking for a while. If you counted out 18 different reports that need building, and you know that the past 10 reports you built averaged out to 30 hours, then your estimate is simply 18 * 30 = 540 hours.
 
-Apparently this simple averaging of historical data is proven to be quite accurate, which surprised me a little. Of course, we didn't have any historical data - I've since seen the light and realized how valuable it can be, so I've started tracking some of it.
+Apparently this simple averaging of historical data is proven to be quite accurate (proven by like, research and stuff), which surprised me a little. Of course, we didn't have any historical data on our team - I've since seen the light and realized how valuable it can be, so I've started tracking some of it.
 
 **Individual Expert Judgement**
 
@@ -102,11 +103,11 @@ Apparently this simple averaging of historical data is proven to be quite accura
 
 > Expected Case = [BestCase + (4 x MostLikelyCase) + WorstCase] / 6
 
-This formula accounts for the full with of the best-to-worst case range, and also factors in the most likely case. 
+This formula accounts for the full width of the best-to-worst case range, and also factors in the most likely case. 
 
 ### Activities Commonly Forgotten in Estimates
 
-My estimates are always perfect, but I'm sure you forget to include things all the time. Steve's got a list of about 40 things, but here are the ones most relevant for myself:
+My estimates are always perfect, but I'm sure *you* forget to include things all the time. Steve's got a list of about 40 things, but here are the ones most relevant for myself:
 
 1. Ramp-up time for new hires
 2. Learning new development tools/frameworks/languages
@@ -124,10 +125,8 @@ The book lists a set of factors that affect project outcomes and defines how muc
 For example, the first item is "Product Complexity", which can decrease total effort by as much as 27% for low-complexity projects and increase total effort by as much as 74% for high-complexity projects. Of course, your project is likely somewhere in between - you define that, and apply the adjustment as appropriate.
 
 |Factor|Best Case|Worst Case|
-|---+---+---+---|
-
-| Product Complexity               | -27% | +74% |
 | -------------------------------- | ---- | ---- |
+| Product Complexity               | -27% | +74% |
 | Requirements Analyst Capability  | -29% | +42% |
 | Programmer Capability            | -24% | +34% |
 | Personnel Continuity (Turnover)  | -19% | +29% |
