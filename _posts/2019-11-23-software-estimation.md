@@ -6,8 +6,7 @@ tags: best-practices software-teams
 cover_image: /assets/images/software-estimation-cover.jpg
 image: /assets/images/software-estimation-cover.jpg
 cover_alt_text: a shelf full of books
-description: A review - the best parts of "Software Estimation: Demystifying the Black Art" by Steve McConnell
-
+description: "A review - the best parts of Software Estimation: Demystifying the Black Art by Steve McConnell"
 ---
 
 Classic situation: your manager comes to you and says 
