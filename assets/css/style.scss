@@ -174,8 +174,8 @@ div#post-container {
     background-color: white;
     margin-bottom: 20px;
 
-    small {
-        font-size: 13px;
+    #tags {
+        font-size: .9em;
     }
 
     .post-content {
@@ -206,7 +206,7 @@ div#post-container {
             margin-right: 0;
 
             code {
-                font-size: 0.8em;
+                font-size: 0.9em;
             }
         }
     }
