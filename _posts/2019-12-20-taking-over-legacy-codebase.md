@@ -174,4 +174,4 @@ It is acceptable to have two different platforms/languages, especially if you're
 
 Anyway, that's about it. This is the part where y'all can tell me all about the obvious things I'm missing and what I'm doing wrong. Please do so on twitter [@willfroese]( https://twitter.com/willfroese _)!
 
-**Bonus: ** I was gonna write about the Strangler Pattern (like [this]( https://martinfowler.com/bliki/StranglerFigApplication.html ) and [this]( https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler )), but then didn't. It's a cool pattern (you can tell by how dangerous it sounds) - you should check it out!
+**Bonus:** I was gonna write about the Strangler Pattern (like [this]( https://martinfowler.com/bliki/StranglerFigApplication.html ) and [this]( https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler )), but then didn't. It's a cool pattern (you can tell by how dangerous it sounds) - you should check it out!
