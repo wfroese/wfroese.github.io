@@ -1,16 +1,15 @@
 ---
 layout: post
-draft: true
 title: "Taking Over a Legacy Codebase"
 excerpt_separator: <!--end_excerpt-->
 tags: code best-practices software-teams
-cover_image: /assets/images/pr-review.jpg
-image: /assets/images/pr-review.jpg
-cover_alt_text: a screen showing some code
+cover_image: /assets/images/backlit-keyboard.jpg
+image: /assets/images/backlit-keyboard.jpg
+cover_alt_text: a backlit keyboard
 description: How to modernize a legacy codebase
 ---
 
-Earlier this year I was put in charge of the team that was taking over all software development for a client of ours. 
+Earlier this year a client of ours decided to make us their sole software development provider and I became the lead of that team. 
 
 Unfortunately, the code base was not in a good state (that's what we in the business call an understatement), and that was causing a lot of problems. I had been working in parts of this code base for a few years, but now that I was running the entire team, I finally had the chance to address the root of the problem, rather than just putting in patches on top of patches.
 
@@ -33,6 +32,8 @@ The code base we were taking over had a lot of issues:
 Now, as a developer, I would love to have as much time as I needed to fix all these issues. As it turns out though, this was like, a real business, and they tell me real businesses have existing clients with real needs and stuff, who knew.
 
 So I was left trying to strike a balance between meeting immediate needs and addressing some of the bigger issues that were slowing down development. This is the story of how we approached the situation.
+
+![Spinning top, balanced](/assets/images/balanced-top.jpg)
 
 ## #1. Make Management Aware
 
@@ -59,6 +60,8 @@ On the plus side, writing large complicated systems with no documentation equals
 ### Too Many Frameworks/Platforms/Tools
 
 More languages/platforms/tools make development inherently more complex. If you expect a small team to work in Java, .NET, PHP, React, and Silverlight, those developers are never going to build up expertise in any of those platforms/frameworks. This, again, makes development slower (read: more expensive).
+
+![Outdated typewriter](/assets/images/typewriter.jpg)
 
 ### Outdated Tech
 
@@ -115,9 +118,9 @@ This is where things really start to get tricky because you've taken care of mos
 
 [The Developer Coefficient]( https://stripe.com/reports/developer-coefficient-2018 ), a report from Stripe, indicates that developers spend ~40% of their time on maintenance, on average.
 
-**Sidenote**: Stripe just has incredible designs for every single thing they put out. That website is gorgeous, the PDF is gorgeous, everything is gorgeous. 
+![Chart showing developers spend 40% of time on maintenance](/assets/images/developer-coefficient-maintenance.JPG)
 
-![Chart showing developers spend 40% of time on maintenance](/assets/images/developer-coefficient-maintenance.jpg)
+**Sidenote**: Stripe just has incredible designs for every single thing they put out. That website is gorgeous, the PDF is gorgeous, everything is gorgeous. 
 
 Now, this tells me that if you have a code base that has significantly more technical debt that average (though it's debatable what an average amount of technical debt is), then your team will need more than 40% of their time spent on technical debt in order to make any progress.
 
@@ -130,6 +133,8 @@ If you simply can't get management to buy in to this fact, then your development
 If, on the other hand, management understands the situation then you can make a plan that allows for significant time to address technical debt while also allowing some time for new development.
 
 In our case, we had two major issues remaining to address in our plan.
+
+![Spinning gears](/assets/images/gears.jpg)
 
 ### Automated Tests
 
