@@ -1,5 +1,6 @@
 ---
 layout: post
+draft: true
 title: "Taking Over a Legacy Codebase"
 excerpt_separator: <!--end_excerpt-->
 tags: code best-practices software-teams
@@ -37,9 +38,9 @@ So I was left trying to strike a balance between meeting immediate needs and add
 
 Step one was to make management aware of the situation. This is a delicate topic, because you don't want to come across as claiming everyone at the company involved with the software has done a terrible job, or that all your predecessors were terrible developers (even if that's true!). 
 
-That wasn't really the case here anyway - in this situation, I think the issues were more structural, rather than the responsibility of any one person. Basically, there had been a lot of turnover for several years, and several third-party development teams, so nobody had been around long enough to enforce any cohesion between the different systems & teams. This basically lead to complete chaos throughout the code base, and let me tell you, I was just **shocked** to find out this mess lead to even more turnover, when developers realized they didn't want to deal with it.
+That wasn't really the case here anyway - in this situation, I think the issues were more structural rather than the responsibility of any one person. Basically there had been a lot of turnover for several years, and several third-party development teams involved, so nobody had been around long enough to enforce any cohesion between the different systems & teams. This basically lead to complete chaos throughout the code base, and let me tell you, it didn't surprise me when this mess lead to even more turnover, when developers realized they didn't want to deal with it.
 
-One thing I regularly find is that non-technical management doesn't understand how these types of issues actually affect their business. I think this is because the impact is not easily measurable, and the effects often aren't seen in the short term.
+One thing I regularly find is that non-technical management doesn't understand how these types of issues actually affect their business. I think this is because the impact isn't easily measurable, and the effects often aren't seen in the short term.
 
 Here's a few examples of what I mean:
 
@@ -47,7 +48,7 @@ Here's a few examples of what I mean:
 
 When developers are always rushed, tests are one of the first things that get dropped. Lack of automated unit/integration tests, especially around the really tricky core business logic, makes it much more difficult (read: more expensive) to safely make changes a few years down the road when the original developer is long gone.
 
-And let's be real - I pretty much have to bribe people to get them to write unit tests. Writing tests is **boring as heck** for a lot of developers, and yet they are **absolutely critical** especially for core business logic, so if you ever want to write software that other developers don't hate working on, **suck it up and write the tests**. I'll stop bolding stuff now.
+And let's be real - I pretty much have to bribe people to get them to write unit tests sometimes. Writing tests is **boring as heck** for a lot of developers, and yet they are **absolutely critical** especially for core, complicated business logic, so if you ever want to write software that other developers don't hate working on, **suck it up and write the tests**. I'll stop bolding stuff now.
 
 ### Lack of Documentation
 
@@ -61,9 +62,9 @@ More languages/platforms/tools make development inherently more complex. If you 
 
 ### Outdated Tech
 
-Sometimes it can make business sense to keep software running on outdated platforms & frameworks, rather than taking on expensive rewrites. 
+Sometimes it can make business sense to keep software running on outdated platforms & frameworks, rather than taking on expensive rewrites. I get that.
 
-But one factor that needs to be considered is that developers only have so much tolerance for dealing with outdated stuff - if too much of their job becomes dealing with that old Silverlight app, they will leave. And, in case you haven't gotten the theme here yet, developer turnover is costly - it's ridiculously expensive to find, interview, and train new developers.
+But one factor that needs to be considered is that developers only have so much tolerance for dealing with outdated stuff - if too much of their job becomes dealing with that old Silverlight app, they will leave. Ok, to be honest, they may leave if **any** part of their job becomes dealing with that old Silverlight app. And, in case you haven't gotten the theme here yet, developer turnover is costly - it's ridiculously expensive to find, interview, and train new developers.
 
 Sidenote: Silverlight, in 2019. It boggles the mind.
 
@@ -151,16 +152,16 @@ This is the other major issue our team is struggling with right now. We're a tea
 3. Silverlight (which we actually just got rid of! I can die in peace now)
 4. Java
 5. React
-6. Oracle and PL/SQL, which is a programming language itself
+6. Oracle (and PL/SQL, which is a programming language itself)
 7. Kx for Sensors - a third-party time-series database specialized for handling sensor data
 8. A network automation tool called Automate, which has it's own programming language
 9. Windows & Linux servers
 
 Look at that, I almost made myself cry just typing out that list. 
 
-Anyway, my point is, that is **way too much for a small team**, and you should never, ever, under any circumstances, let your team introduce that many tools into one system or code base.
+Anyway, my point is, that is **way too much for a small team**, and you should never, ever, under any circumstances, let your small team introduce that many tools into one system or code base.
 
-It is acceptable to have two different platforms/languages, especially if you're in the process of migrating. It might even be acceptable to have five different languages/platforms if you have five different independent teams. But this many platforms/languages for one team is just sheer neglect.
+It is acceptable to have two different platforms/languages, especially if you're in the process of migrating. It might even be acceptable to have five different languages/platforms if you have five different independent teams. But having this many platforms/languages for one team is just Doing It Wrong.
 
 /endrant
 
