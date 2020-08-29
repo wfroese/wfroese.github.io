@@ -8,7 +8,7 @@ image: /assets/images/performance.jpg
 cover_alt_text: a speedometer
 description: Thoughts on evaluating the effectiveness of software teams
 ---
-I used to be a software developer, and I had one job. Now I manage a software team, so I have like 87 jobs, including my old one. Now that I run a team, one of the questions I have to ask myself on a regular basis is ~~"how can I delegate 100% of my work to other people"~~, I mean, "how effective is my development team right now"? A lot has been written on this obviously, but what I need is a concise summary that I can refer to regularly to make sure we're still on track.
+I used to be a software developer, and I had one job. Now I manage a software team, so I have like 87 jobs, including my old one. Now that I run a team one of the questions I have to ask myself on a regular basis is ~~"how can I delegate 100% of my work to other people"~~ "how effective is my development team right now"? A lot has been written on this obviously, but what I need is a concise summary that I can refer to regularly to make sure we're still on track.
 
 <!--end_excerpt-->
 
@@ -32,7 +32,7 @@ Evaluating a team's efficiency is a Hard Thing, but there are a lot of questions
 5. How often are deployments happening? Generally, the more the better - fewer, larger deployments are well known to be far more risky and cause more problems than frequent, smaller deployments.
 6. How often are heroic efforts required to finish a project, fix production bugs, etc? Another indicator of sustainability - if developers are frequently required to work crazy hours, you risk burnout and increase the chances of team members leaving because they want a calmer work environment.
 
-
+![A software team at a whiteboard](/assets/images/team-whiteboard.jpg)
 
 ### Factors That Affect a Software Team's Efficiency
 
@@ -83,17 +83,15 @@ Note: an imbalance of power doesn't necessarily mean a team won't be effective! 
 
 **State of the Software:** 
 
-This is a repeat, and no that's not cheating cause I make the rules around here yo.
+This is a repeat, and no that's not cheating because I make the rules around here yo.
 
-The current state of the software affects both a team's efficiency as well as their impact though. If maintainability has been neglected for a long time and the system is a giant ball of spaghetti that everyone's afraid to touch, then the team will likely be spending a lot of time addressing technical debt. Using my super-enhanced powers of logic, I therefore deduce that the team isn't going to have much impact on the business for a while as they don't have much time to build new features, and any new features being worked on are going to take forever to finish.
+The current state of the software affects both a team's efficiency as well as their impact though. If maintainability has been neglected for a long time and the system is a giant ball of spaghetti that everyone's afraid to touch, then the team will likely be spending a lot of time [addressing technical debt](https://willfroese.com/blog/taking-over-legacy-codebase). Using my super-enhanced powers of logic, I therefore deduce that the team isn't going to have much impact on the business for a while as they don't have much time to build new features, and any new features being worked on are going to take forever to finish.
 
 ## The End, In Which I Wrap This Up
 
-And that's all folks. 
+And that's all, folks. It's interesting that I've never had someone ask me how we know whether our software team is effective or not, or if there are any ways we could become more effective. And yet, orgs that can build up momentum & velocity in their development teams have a massive advantage over orgs that can't. A little organizational introspection can go a long way.
 
-While this is hardly an exhaustive analysis (obviously, given there are books on this), I find it interesting that I always feel the need to say something like "I'm sure I've forgotten loads of stuff". If you'll allow me a slight digression (just kidding I don't care what you allow me), I feel like that phrase is a psychological crutch so that I won't feel too incompetent when someone inevitably points out stuff I didn't know or missed. So I'm not gonna say it, and when someone points out obvious stuff I didn't know I'll find another way to protect my fragile ego.
-
-`</digression>`
+`</thoughts>`
 
 Eww, who uses xml anymore. Other than like the 50% of all currently running systems that were built between 1990 and 2010, but those obviously don't count.
 
