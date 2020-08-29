@@ -3,10 +3,10 @@ layout: post
 title: "Evaluating a Software Team's Effectiveness"
 excerpt_separator: <!--end_excerpt-->
 tags: code teams
-cover_image: /assets/images/performance.jpg
-image: /assets/images/performance.jpg
-cover_alt_text: a speedometer
-description: Thoughts on evaluating the effectiveness of software teams
+cover_image: /assets/images/chess-team.jpg
+image: /assets/images/chess-team.jpg
+cover_alt_text: chess pieces teaming up
+description: Thoughts on evaluating the effectiveness of software teams, and what you can do to improve team productivity
 ---
 I used to be a software developer, and I had one job. Now I manage a software team, so I have like 87 jobs, including my old one. Now that I run a team one of the questions I have to ask myself on a regular basis is ~~"how can I delegate 100% of my work to other people"~~ "how effective is my development team right now"? A lot has been written on this obviously, but what I need is a concise summary that I can refer to regularly to make sure we're still on track.
 
