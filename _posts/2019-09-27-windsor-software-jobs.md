@@ -21,19 +21,21 @@ Note 1: I only have a vague idea of what many of these companies actually do - i
 Note 2: This is of course not a complete list, but it does include the majority of local software companies.
 
 ## Pure Software/Tech Companies
-2. [BorderConnect](https://emanifest.borderconnect.com/): Provides software to help highway carriers submit their eManifests, making border crossings easier.
+2. [Rocket Innovation Studio](https://rocketinnovationstudio.ca) (affiliated with Quicken Loans, Rocket Mortgage, etc): Financial tech including mortages, loans, etc. There's also a [dedicated recruiting site here](https://www.myrocketcareer.com/) (includes both Windsor and Detroit positions)
+3. [BorderConnect](https://emanifest.borderconnect.com/): Provides software to help highway carriers submit their eManifests, making border crossings easier.
 4. [Halight](https://halight.com/): A software company that provides tools around learning management and training development of employees.
 5. [Wired Solutions](https://www.wiredsolutions.ca/#!): A software company that appears to focus on custom web development, with a special focus on healthcare and education in government.
 6. [Red Piston](https://redpiston.com/): A custom development company with a focus on mobile and media.
 7. [Noodle](https://vialect.com/): Provides intranet software for the enterprise.
-9. [iDream Interactive](https://www.idreaminteractive.com/): Mobile games developer.
-10. [Coulter Software](https://www.coulters.ca/): A general software consultancy with no particular specialty.
-11. [App Nouveau](https://www.appnouveau.com/): A custom software agency that appears to specialize in transportation management software.
+8. [iDream Interactive](https://www.idreaminteractive.com/): Mobile games developer.
+9. [Coulter Software](https://www.coulters.ca/): A general software consultancy with no particular specialty.
+10. [App Nouveau](https://www.appnouveau.com/): A custom software agency that appears to specialize in transportation management software.
 11. [Progressive Software Inc.](http://prosoftxp.com/): Enterprise software solutions in the agriculture industry.
 12. [Splice Digital](https://splicedigital.com/): A software agency
 13. [Elev8](https://www.elev8webstudio.com/): A Web Agency, specializing in WordPress development, hosting, and maintenance
 14. [Full Circle TMS](https://fullcircletms.com/): A startup in the transportation management industry
-15. [Eleven Winds](https://www.elevenwinds.com/): A software consultancy with specialties in e-commerce, warehouse management, and electrical utilities. This is where I work! Among other things, We handle all development for [Utilismart](http://www.utilismartcorp.com/), which is the team I run.
+15. [Eleven Winds](https://www.elevenwinds.com/): A software consultancy with specialties in the energy industry (electrical utilities), plus e-commerce and warehouse management. This is where I work! Among other things, we are the development team of [Utilismart](http://www.utilismartcorp.com/) (out of London, Ontario), which is the team I run.
+16. [Clear Code Solutions](http://clearcode.ca/): Based out of Kingsville, Clear Code offers a product for manufacturing companies that specifically use the Epicor ERP system
 
 ## Companies With Some Developers on Staff
 1. [Green Shield](https://www.greenshield.ca/en-ca): A health benefits company with a large office in Windsor including a development team.
