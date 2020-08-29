@@ -14,7 +14,6 @@ Learning Projects:
 
 1. Machine Learning & AI
 2. Domain Driven Design
-3. React - more advanced
 4. IESO - utilities
 5. .NET 5
 6. Docker

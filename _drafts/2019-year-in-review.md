@@ -8,7 +8,7 @@ image: /assets/images/oracle.jpg
 cover_alt_text: oracle database logo
 description: A review of how my 2019 went
 ---
-I always love reading year-in-review posts from other people. A year is a long enough period of time that a lot can happen if you're intentional about it, or it can just coast by and kind of disappear on you if you're not careful. 
+I always love reading year-in-review posts from other people. A year is a long enough period of time that a lot can happen if you're intentional about it, or it can just coast by and kind of disappear if you're not careful. 
 
 <!--end_excerpt-->
 
@@ -28,7 +28,7 @@ I wrote more in-depth about [my transition to being responsible for a team]( htt
 
 **My team launched some major projects this year**. I'm proud of what my team has accomplished this year. We launched some major projects, including:
 
-1. A migration from Oracle to a time-series database was underway - we took this project over, completed it, and launched it. Long story, but this was probably the hardest thing I've ever done at work due to how many things had gone wrong that were out of our control.
+1. A migration from Oracle to a time-series database was underway - we took this project over, completed it, and launched it. Long story, but this was probably the hardest thing I've ever done professionally due to how many things had gone wrong that were out of our control.
 2. Rewrote a critical customer-facing Silverlight web app in React and launched it.
 3. Lots of other smaller projects including new customer onboardings, etc.
 4. Everyone worked sane hours all year long.
@@ -50,14 +50,14 @@ I read some really great books this year, both software-related and otherwise. A
 1. [The Manager's Path (Camille Fourner)](https://willfroese.com/blog/the-managers-path)
 2. [Software Estimation: Demystifying the Black Art (Steve McConnell)](https://willfroese.com/blog/software-estimation)
 3. [Designing Data-Intensive Applications (Martin Kleppman)](https://www.amazon.ca/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) 
-4. Foundation (Isaac Asimov) - Known as one of the best sci-fi series of all time, it lived up to it's reputation. 
+4. [Foundation (Isaac Asimov)](https://www.amazon.com/Foundation-Isaac-Asimov-ebook/dp/B000FC1PWA/ref=sr_1_1?keywords=foundation+asimov&qid=1577894803&sr=8-1) - Known as one of the best sci-fi series of all time, it lived up to it's reputation. 
 5. [Foundryside (Robert Jackson Bennett)](https://www.amazon.com/Foundryside-Novel-Founders-Trilogy-Book-ebook/dp/B077RG422Z/ref=sr_1_1?keywords=foundryside&qid=1573960027&sr=8-1) - A sci-fi/fantasy that actually manages to be unique, and the start of a new series.
 
 ## Fitness
 
-This was a bit of a mixed bag, unfortunately. I've wanted to get stronger for years now, but every time I try I remember how much I dislike the gym. I'm trying again anyway, with a bit of extra motivation since I've turned 30 now. I'm also really starting to feel how my office job is affecting me, as I've lost a lot of flexibility over the last few years. I've had some success with getting to the gym more regularly in the last few months, so I'm hoping to continue that into next year.
+This was a bit of a mixed bag, unfortunately. I've wanted to build up my strength for years now, but every time I try I remember how much I dislike the gym. I'm trying again anyway, with a bit of extra motivation since I've turned 30 now. I'm also really starting to feel how my office job is affecting me, as I've lost a lot of flexibility over the last few years. I've had some success with getting to the gym more regularly in the last few months, so I'm hoping to continue that into next year.
 
-One positive was that I played baseball the entire summer with no injuries, which hasn't happened in a couple years. These days I don't have time to go out several times a week, so all I do is pitch, usually every 10-14 days for so. The last few years I've had arm injuries, but this year was clean!
+One positive was that I played baseball the entire summer with no injuries, which hasn't happened in a couple years. These days I don't have time for baseball several times a week, so all I do is pitch, usually once every two weeks or so. The last few years I've had arm injuries, but this year was clean!
 
 ## Goals
 
